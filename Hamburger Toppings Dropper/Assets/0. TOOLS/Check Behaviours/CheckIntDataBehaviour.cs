@@ -13,6 +13,7 @@ public class CheckIntDataBehaviour : MonoBehaviour
     public IntData secondaryIntData;
     public int intVariable;
     public UnityEvent ifStatementIsTrueEvent;
+    public UnityEvent elseEvent;
 
     private int _comparisonValue;
 
@@ -38,19 +39,39 @@ public class CheckIntDataBehaviour : MonoBehaviour
         switch (checkFor)
         {
             case AssertionTypes.IsEqualTo:
-                if (mainIntData.value != _comparisonValue) { return; }
+                if (mainIntData.value != _comparisonValue) 
+                {
+                    elseEvent.Invoke();
+                    return;
+                }
                 break;
             case AssertionTypes.IsGreaterThan:
-                if (mainIntData.value <= _comparisonValue) { return; }
+                if (mainIntData.value <= _comparisonValue) 
+                {
+                    elseEvent.Invoke();
+                    return;
+                }
                 break;
             case AssertionTypes.IsLessThan:
-                if (mainIntData.value >= _comparisonValue) { return; }
+                if (mainIntData.value >= _comparisonValue) 
+                {
+                    elseEvent.Invoke();
+                    return;
+                }
                 break;
             case AssertionTypes.IsGreaterThanOrEqualTo:
-                if (mainIntData.value < _comparisonValue) { return; }
+                if (mainIntData.value < _comparisonValue) 
+                {
+                    elseEvent.Invoke();
+                    return;
+                }
                 break;
             case AssertionTypes.IsLessThanOrEqualTo:
-                if (mainIntData.value > _comparisonValue) { return; }
+                if (mainIntData.value > _comparisonValue) 
+                {
+                    elseEvent.Invoke();
+                    return;
+                }
                 break;
         }
         ifStatementIsTrueEvent.Invoke();
