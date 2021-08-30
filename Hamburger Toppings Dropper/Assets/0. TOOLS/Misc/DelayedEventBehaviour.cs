@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
@@ -5,15 +6,19 @@ using UnityEngine.Events;
 public class DelayedEventBehaviour : MonoBehaviour
 {
     public float delayTime = 1.0f;
-    public bool beginOnStart = true;
+    public bool beginOnEnable = true;
     public UnityEvent delayedEvent;
 
     private WaitForSeconds _waitForSecondsObj;
 
-    void Start()
+    private void Awake()
     {
         _waitForSecondsObj = new WaitForSeconds(delayTime);
-        if (beginOnStart)
+    }
+
+    void OnEnable()
+    {
+        if (beginOnEnable)
         {
             InitiateCountdown();
         }

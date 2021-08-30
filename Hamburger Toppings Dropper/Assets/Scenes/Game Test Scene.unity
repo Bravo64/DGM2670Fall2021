@@ -1125,7 +1125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayTime: 0.1
-  beginOnStart: 0
+  beginOnEnable: 1
   delayedEvent:
     m_PersistentCalls:
       m_Calls:
@@ -2374,7 +2374,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayTime: 0.1
-  beginOnStart: 0
+  beginOnEnable: 1
   delayedEvent:
     m_PersistentCalls:
       m_Calls:
@@ -3194,6 +3194,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 4ba1eeeecc5c54f23b968f7f395ba132, type: 2}
+        m_TargetAssemblyTypeName: IntData, Assembly-CSharp
+        m_MethodName: SetValue
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -4073,7 +4085,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayTime: 0.1
-  beginOnStart: 0
+  beginOnEnable: 1
   delayedEvent:
     m_PersistentCalls:
       m_Calls:
@@ -4439,7 +4451,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayTime: 1
-  beginOnStart: 1
+  beginOnEnable: 1
   delayedEvent:
     m_PersistentCalls:
       m_Calls:
@@ -5189,7 +5201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayTime: 0.1
-  beginOnStart: 0
+  beginOnEnable: 1
   delayedEvent:
     m_PersistentCalls:
       m_Calls:
@@ -5548,7 +5560,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayTime: 0.1
-  beginOnStart: 0
+  beginOnEnable: 1
   delayedEvent:
     m_PersistentCalls:
       m_Calls:
@@ -5756,6 +5768,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 331271032}
+  - component: {fileID: 331271034}
   - component: {fileID: 331271033}
   m_Layer: 8
   m_Name: Top Bun Sprite
@@ -5815,9 +5828,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -206410085
-  m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -100
   m_Sprite: {fileID: -3919057705006806494, guid: da8177c54f5e145ea87253c44912c1c2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5829,6 +5842,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &331271034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331271031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31ff1e79325f54bac8eb9521016de255, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delayTime: 0.03
+  beginOnEnable: 0
+  delayedEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 331271033}
+        m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
+        m_MethodName: set_sortingLayerName
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Level Foreground
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &335998371
 GameObject:
   m_ObjectHideFlags: 0
@@ -7006,6 +7048,7 @@ GameObject:
   - component: {fileID: 401575303}
   - component: {fileID: 401575302}
   - component: {fileID: 401575306}
+  - component: {fileID: 401575307}
   m_Layer: 5
   m_Name: Top Bun Button (0)
   m_TagString: Untagged
@@ -7168,6 +7211,33 @@ MonoBehaviour:
       - m_Target: {fileID: 11400000, guid: 75efed1a6c115401f8aba4cd305819fe, type: 2}
         m_TargetAssemblyTypeName: GameEvents.VoidEvent, Assembly-CSharp
         m_MethodName: Raise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &401575307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401575300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcd17b885711043a1918f392ddb7aaa3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnableEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 165366412655581129}
+        m_TargetAssemblyTypeName: DelayedEventBehaviour, Assembly-CSharp
+        m_MethodName: InitiateCountdown
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10830,7 +10900,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayTime: 0.1
-  beginOnStart: 0
+  beginOnEnable: 1
   delayedEvent:
     m_PersistentCalls:
       m_Calls:
@@ -11049,7 +11119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayTime: 0.1
-  beginOnStart: 0
+  beginOnEnable: 1
   delayedEvent:
     m_PersistentCalls:
       m_Calls:
@@ -17108,7 +17178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayTime: 0.1
-  beginOnStart: 0
+  beginOnEnable: 1
   delayedEvent:
     m_PersistentCalls:
       m_Calls:
@@ -17321,6 +17391,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 838470402}
+  - component: {fileID: 838470404}
   - component: {fileID: 838470403}
   m_Layer: 8
   m_Name: Top Bun Sprite
@@ -17380,9 +17451,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -206410085
-  m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -100
   m_Sprite: {fileID: -3919057705006806494, guid: da8177c54f5e145ea87253c44912c1c2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -17394,6 +17465,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &838470404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 838470401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31ff1e79325f54bac8eb9521016de255, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delayTime: 0.03
+  beginOnEnable: 0
+  delayedEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 838470403}
+        m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
+        m_MethodName: set_sortingLayerName
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Level Foreground
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &845400964
 GameObject:
   m_ObjectHideFlags: 0
@@ -18308,7 +18408,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayTime: 0.1
-  beginOnStart: 0
+  beginOnEnable: 1
   delayedEvent:
     m_PersistentCalls:
       m_Calls:
@@ -18690,6 +18790,7 @@ GameObject:
   - component: {fileID: 949460608}
   - component: {fileID: 949460607}
   - component: {fileID: 949460611}
+  - component: {fileID: 949460612}
   m_Layer: 5
   m_Name: Top Bun Button (2)
   m_TagString: Untagged
@@ -18852,6 +18953,33 @@ MonoBehaviour:
       - m_Target: {fileID: 11400000, guid: 75efed1a6c115401f8aba4cd305819fe, type: 2}
         m_TargetAssemblyTypeName: GameEvents.VoidEvent, Assembly-CSharp
         m_MethodName: Raise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &949460612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949460605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcd17b885711043a1918f392ddb7aaa3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnableEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1147079356}
+        m_TargetAssemblyTypeName: DelayedEventBehaviour, Assembly-CSharp
+        m_MethodName: InitiateCountdown
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -24194,7 +24322,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayTime: 0.1
-  beginOnStart: 0
+  beginOnEnable: 1
   delayedEvent:
     m_PersistentCalls:
       m_Calls:
@@ -24562,7 +24690,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayTime: 0.1
-  beginOnStart: 0
+  beginOnEnable: 1
   delayedEvent:
     m_PersistentCalls:
       m_Calls:
@@ -24815,6 +24943,7 @@ GameObject:
   - component: {fileID: 1063634411}
   - component: {fileID: 1063634410}
   - component: {fileID: 1063634414}
+  - component: {fileID: 1063634415}
   m_Layer: 5
   m_Name: Top Bun Button (1)
   m_TagString: Untagged
@@ -24977,6 +25106,33 @@ MonoBehaviour:
       - m_Target: {fileID: 11400000, guid: 75efed1a6c115401f8aba4cd305819fe, type: 2}
         m_TargetAssemblyTypeName: GameEvents.VoidEvent, Assembly-CSharp
         m_MethodName: Raise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1063634415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063634408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcd17b885711043a1918f392ddb7aaa3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnableEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 331271034}
+        m_TargetAssemblyTypeName: DelayedEventBehaviour, Assembly-CSharp
+        m_MethodName: InitiateCountdown
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -25792,6 +25948,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1147079354}
+  - component: {fileID: 1147079356}
   - component: {fileID: 1147079355}
   m_Layer: 8
   m_Name: Top Bun Sprite
@@ -25851,9 +26008,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -206410085
-  m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -100
   m_Sprite: {fileID: -3919057705006806494, guid: da8177c54f5e145ea87253c44912c1c2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -25865,6 +26022,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1147079356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1147079353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31ff1e79325f54bac8eb9521016de255, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delayTime: 0.03
+  beginOnEnable: 0
+  delayedEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1147079355}
+        m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
+        m_MethodName: set_sortingLayerName
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Level Foreground
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &1153505319
 GameObject:
   m_ObjectHideFlags: 0
@@ -26027,7 +26213,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayTime: 0.1
-  beginOnStart: 0
+  beginOnEnable: 1
   delayedEvent:
     m_PersistentCalls:
       m_Calls:
@@ -27225,7 +27411,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayTime: 0.1
-  beginOnStart: 0
+  beginOnEnable: 1
   delayedEvent:
     m_PersistentCalls:
       m_Calls:
@@ -27439,7 +27625,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayTime: 0.1
-  beginOnStart: 0
+  beginOnEnable: 1
   delayedEvent:
     m_PersistentCalls:
       m_Calls:
@@ -28286,7 +28472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayTime: 0.1
-  beginOnStart: 0
+  beginOnEnable: 1
   delayedEvent:
     m_PersistentCalls:
       m_Calls:
@@ -28870,7 +29056,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayTime: 0.1
-  beginOnStart: 0
+  beginOnEnable: 1
   delayedEvent:
     m_PersistentCalls:
       m_Calls:
@@ -29171,7 +29357,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayTime: 0.1
-  beginOnStart: 0
+  beginOnEnable: 1
   delayedEvent:
     m_PersistentCalls:
       m_Calls:
@@ -29882,7 +30068,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayTime: 0.1
-  beginOnStart: 0
+  beginOnEnable: 1
   delayedEvent:
     m_PersistentCalls:
       m_Calls:
@@ -30750,6 +30936,7 @@ GameObject:
   - component: {fileID: 1629348086}
   - component: {fileID: 1629348085}
   - component: {fileID: 1629348090}
+  - component: {fileID: 1629348091}
   m_Layer: 5
   m_Name: Top Bun Button (3)
   m_TagString: Untagged
@@ -30912,6 +31099,33 @@ MonoBehaviour:
       - m_Target: {fileID: 11400000, guid: 75efed1a6c115401f8aba4cd305819fe, type: 2}
         m_TargetAssemblyTypeName: GameEvents.VoidEvent, Assembly-CSharp
         m_MethodName: Raise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1629348091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629348084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcd17b885711043a1918f392ddb7aaa3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnableEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 838470404}
+        m_TargetAssemblyTypeName: DelayedEventBehaviour, Assembly-CSharp
+        m_MethodName: InitiateCountdown
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -31227,7 +31441,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayTime: 0.1
-  beginOnStart: 0
+  beginOnEnable: 1
   delayedEvent:
     m_PersistentCalls:
       m_Calls:
@@ -31441,7 +31655,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayTime: 0.1
-  beginOnStart: 0
+  beginOnEnable: 1
   delayedEvent:
     m_PersistentCalls:
       m_Calls:
@@ -32364,7 +32578,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayTime: 0.1
-  beginOnStart: 0
+  beginOnEnable: 1
   delayedEvent:
     m_PersistentCalls:
       m_Calls:
@@ -43386,7 +43600,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayTime: 0.1
-  beginOnStart: 0
+  beginOnEnable: 1
   delayedEvent:
     m_PersistentCalls:
       m_Calls:
@@ -46239,7 +46453,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayTime: 0.1
-  beginOnStart: 0
+  beginOnEnable: 1
   delayedEvent:
     m_PersistentCalls:
       m_Calls:
@@ -46453,7 +46667,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayTime: 0.1
-  beginOnStart: 0
+  beginOnEnable: 1
   delayedEvent:
     m_PersistentCalls:
       m_Calls:
@@ -46667,7 +46881,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayTime: 0.1
-  beginOnStart: 0
+  beginOnEnable: 1
   delayedEvent:
     m_PersistentCalls:
       m_Calls:
@@ -47293,7 +47507,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayTime: 0.1
-  beginOnStart: 0
+  beginOnEnable: 1
   delayedEvent:
     m_PersistentCalls:
       m_Calls:
@@ -47749,7 +47963,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayTime: 0.1
-  beginOnStart: 1
+  beginOnEnable: 1
   delayedEvent:
     m_PersistentCalls:
       m_Calls:
@@ -48811,7 +49025,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayTime: 0.1
-  beginOnStart: 0
+  beginOnEnable: 1
   delayedEvent:
     m_PersistentCalls:
       m_Calls:
@@ -49610,7 +49824,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayTime: 0.1
-  beginOnStart: 0
+  beginOnEnable: 1
   delayedEvent:
     m_PersistentCalls:
       m_Calls:
@@ -49823,6 +50037,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 165366412655581134}
+  - component: {fileID: 165366412655581129}
   - component: {fileID: 165366412655581135}
   m_Layer: 8
   m_Name: Top Bun Sprite
@@ -49831,6 +50046,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &165366412655581129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165366412655581128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31ff1e79325f54bac8eb9521016de255, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delayTime: 0.03
+  beginOnEnable: 0
+  delayedEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 165366412655581135}
+        m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
+        m_MethodName: set_sortingLayerName
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Level Foreground
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!4 &165366412655581134
 Transform:
   m_ObjectHideFlags: 0
@@ -49882,9 +50126,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -206410085
-  m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -100
   m_Sprite: {fileID: -3919057705006806494, guid: da8177c54f5e145ea87253c44912c1c2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
