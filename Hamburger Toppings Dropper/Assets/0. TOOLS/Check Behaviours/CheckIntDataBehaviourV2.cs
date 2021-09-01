@@ -4,7 +4,7 @@ using UnityEngine.Events;
 public class CheckIntDataBehaviourV2 : MonoBehaviour
 {
     public enum Modes { CompareMainToSecondary, CompareMainToVariable}
-    public enum AssertionTypes { IsEqualTo, IsGreaterThan, IsLessThan, IsGreaterThanOrEqualTo, IsLessThanOrEqualTo}
+    public enum AssertionTypes { IsEqualTo, IsNotEqualTo, IsGreaterThan, IsLessThan, IsGreaterThanOrEqualTo, IsLessThanOrEqualTo}
 
     public bool checkOnStart = true;
     public Modes mode = Modes.CompareMainToSecondary;
@@ -40,6 +40,13 @@ public class CheckIntDataBehaviourV2 : MonoBehaviour
         {
             case AssertionTypes.IsEqualTo:
                 if (mainIntData.value != _comparisonValue) 
+                {
+                    elseEvent.Invoke();
+                    return;
+                }
+                break;
+            case AssertionTypes.IsNotEqualTo:
+                if (mainIntData.value == _comparisonValue)
                 {
                     elseEvent.Invoke();
                     return;
