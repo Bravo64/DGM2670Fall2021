@@ -1,0 +1,531 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8791078083531726997
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8791078083531727016}
+  - component: {fileID: 8791078083531727018}
+  - component: {fileID: 8791078083531727019}
+  - component: {fileID: 8791078083531726996}
+  m_Layer: 0
+  m_Name: Shape Creator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8791078083531727016
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8791078083531726997}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8791078084921947381}
+  - {fileID: 8791078085047797416}
+  - {fileID: 8791078084533838738}
+  - {fileID: 8791078084269670682}
+  - {fileID: 8791078084721785941}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8791078083531727018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8791078083531726997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21a2df34177f8432eb0342d1efa1919f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  invokeOnStart: 1
+  randomEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8791078084921947382}
+        m_TargetAssemblyTypeName: SnapRotationBehaviour, Assembly-CSharp
+        m_MethodName: ApplyFullRotationSnapping
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8791078085047797417}
+        m_TargetAssemblyTypeName: SnapRotationBehaviour, Assembly-CSharp
+        m_MethodName: ApplyFullRotationSnapping
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8791078084533838739}
+        m_TargetAssemblyTypeName: SnapRotationBehaviour, Assembly-CSharp
+        m_MethodName: ApplyFullRotationSnapping
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8791078084269670683}
+        m_TargetAssemblyTypeName: SnapRotationBehaviour, Assembly-CSharp
+        m_MethodName: ApplyFullRotationSnapping
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8791078083531727019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8791078083531726997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b38b82bcc6703463ebfee9fd315f9802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  randomPrefabObjects:
+  - {fileID: 7365934597480695255, guid: 5eae6b5e06d174ee8bf32b879cf589d6, type: 3}
+  - {fileID: 4201767171576121471, guid: ec0f3feece53e4541a0e2416650e0934, type: 3}
+  - {fileID: 9035340912419119012, guid: 283e34a75c92b4fb0bede229e82990a7, type: 3}
+  - {fileID: 6624660918510383541, guid: 81a4acbeadfca43c5a85f68728b2551b, type: 3}
+  - {fileID: 430802081796603110, guid: 947d28e11a4a343cf94f704e98b40ed2, type: 3}
+  - {fileID: 5023756053711261035, guid: 65236d1e44bcf4832baa51e5b7af5517, type: 3}
+  - {fileID: 6566978077847905922, guid: c87e06ded03974a459fb6e976beb35fd, type: 3}
+  - {fileID: 8378034200530515757, guid: 89a3cc718a85a4d268ecd9ceeb6b60c4, type: 3}
+  - {fileID: 3553077571304431357, guid: 261ac62f120ad4e44b692a927cfd14cb, type: 3}
+  - {fileID: 49142833177728795, guid: 8f8dcd25e0ebb4ac491a4d8f3f4c3517, type: 3}
+  - {fileID: 7388974406352975599, guid: d8d6b23309a374c99b30eb099b92876d, type: 3}
+  - {fileID: 904194793861302616, guid: ce79b666ebfd047fb91ed80b635e8d48, type: 3}
+  - {fileID: 2202352274667029737, guid: 19f292fead7194bb29faeb43ced93ba8, type: 3}
+  - {fileID: 4167768451913985605, guid: 1745bba21bf0e47fbbf9705847f28981, type: 3}
+  - {fileID: 3626614813985913870, guid: a31b65f40501a422eb266e4a9a6603c7, type: 3}
+  - {fileID: 7703044088906022227, guid: 07674c9cc2b734da3a263f056aadc4ed, type: 3}
+  - {fileID: 4033175872650511814, guid: d479c4969d7af4536a657cc3f4c14466, type: 3}
+  - {fileID: 2248006330818697011, guid: 371cf0c65bed54ce081ea10bf3ee2e91, type: 3}
+  positionTypes: 0
+  rotationType: 1
+  instantiateOnEnable: 0
+  optionalCreationPoint: {fileID: 0}
+--- !u!114 &8791078083531726996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8791078083531726997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d167fc5ae5e84174b799d46b7545c0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onAwakeEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  onStartEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 32a2fae07936b4b35a898883980b7c72, type: 2}
+        m_TargetAssemblyTypeName: GameEvents.VoidEvent, Assembly-CSharp
+        m_MethodName: Raise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &8791078084269670660
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8791078084269670682}
+  - component: {fileID: 8791078084269670683}
+  m_Layer: 0
+  m_Name: Rotation (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8791078084269670682
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8791078084269670660}
+  m_LocalRotation: {x: 0, y: -0, z: 0.7071068, w: -0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8791078083531727016}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
+--- !u!114 &8791078084269670683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8791078084269670660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e295d3176c2b4848be43058c387b119, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  snappingType: 1
+  mode: 1
+  vector3Reference: {x: 0, y: 0, z: 0}
+  transformReference: {fileID: 8791078084269670682}
+  vector3DataReference: {fileID: 0}
+  snapAxesType: 0
+  runOnEnable: 0
+--- !u!1 &8791078084533838748
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8791078084533838738}
+  - component: {fileID: 8791078084533838739}
+  m_Layer: 0
+  m_Name: Rotation (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8791078084533838738
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8791078084533838748}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8791078083531727016}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+--- !u!114 &8791078084533838739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8791078084533838748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e295d3176c2b4848be43058c387b119, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  snappingType: 1
+  mode: 1
+  vector3Reference: {x: 0, y: 0, z: 0}
+  transformReference: {fileID: 8791078084533838738}
+  vector3DataReference: {fileID: 0}
+  snapAxesType: 0
+  runOnEnable: 0
+--- !u!1 &8791078084721785942
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8791078084721785941}
+  - component: {fileID: 8791078084721785960}
+  - component: {fileID: 8791078084721785961}
+  - component: {fileID: 8791078084721785962}
+  - component: {fileID: 8791078084721785963}
+  - component: {fileID: 8077204594474519130}
+  m_Layer: 14
+  m_Name: Game Over Detector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8791078084721785941
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8791078084721785942}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8791078083531727016}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8791078084721785960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8791078084721785942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e295d3176c2b4848be43058c387b119, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  snappingType: 0
+  mode: 0
+  vector3Reference: {x: 0, y: 0, z: 0}
+  transformReference: {fileID: 0}
+  vector3DataReference: {fileID: 0}
+  snapAxesType: 0
+  runOnEnable: 1
+--- !u!114 &8791078084721785961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8791078084721785942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d167fc5ae5e84174b799d46b7545c0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onAwakeEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  onStartEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8791078084721785941}
+        m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+        m_MethodName: SetParent
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8791078084721785960}
+        m_TargetAssemblyTypeName: SnapRotationBehaviour, Assembly-CSharp
+        m_MethodName: ApplyFullRotationSnapping
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!61 &8791078084721785962
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8791078084721785942}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 500, y: 0.5}
+  m_EdgeRadius: 0
+--- !u!50 &8791078084721785963
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8791078084721785942}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 0
+  m_CollisionDetection: 1
+  m_Constraints: 3
+--- !u!114 &8077204594474519130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8791078084721785942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66e5a2c1fc79640c889ffa67f20bda84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneLoaderObj: {fileID: 11400000, guid: d45f6ec7629a94660af162bec877f2d2, type: 2}
+--- !u!1 &8791078084921947383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8791078084921947381}
+  - component: {fileID: 8791078084921947382}
+  m_Layer: 0
+  m_Name: Rotation (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8791078084921947381
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8791078084921947383}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8791078083531727016}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8791078084921947382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8791078084921947383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e295d3176c2b4848be43058c387b119, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  snappingType: 1
+  mode: 1
+  vector3Reference: {x: 0, y: 0, z: 0}
+  transformReference: {fileID: 8791078084921947381}
+  vector3DataReference: {fileID: 0}
+  snapAxesType: 0
+  runOnEnable: 0
+--- !u!1 &8791078085047797418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8791078085047797416}
+  - component: {fileID: 8791078085047797417}
+  m_Layer: 0
+  m_Name: Rotation (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8791078085047797416
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8791078085047797418}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8791078083531727016}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!114 &8791078085047797417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8791078085047797418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e295d3176c2b4848be43058c387b119, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  snappingType: 1
+  mode: 1
+  vector3Reference: {x: 0, y: 0, z: 0}
+  transformReference: {fileID: 8791078085047797416}
+  vector3DataReference: {fileID: 0}
+  snapAxesType: 0
+  runOnEnable: 0

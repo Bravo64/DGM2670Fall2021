@@ -1,0 +1,6 @@
+Color to Number Correlations:
+
+0 —> Red
+1 —> Yellow
+2 —> Blue
+3 —> Green

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5a7b7943b257b4daaba407e4d5741dbb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - createNewShape: {instanceID: 0}
+  - sensorChildren: {instanceID: 0}
+  - parentNewDotEvent: {fileID: 11400000, guid: 1774fdf1cf24b4a558914f73e9097db3, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class CheckIntDataBehaviour : MonoBehaviour
+public class CheckIntDataBehaviourV1 : MonoBehaviour
 {
     public enum Modes { CompareMainToSecondary, CompareMainToVariable}
     public enum AssertionTypes { IsEqualTo, IsGreaterThan, IsLessThan, IsGreaterThanOrEqualTo, IsLessThanOrEqualTo}
@@ -35,7 +35,7 @@ public class CheckIntDataBehaviour : MonoBehaviour
         {
             _comparisonValue = intVariable;
         }
-
+        
         switch (checkFor)
         {
             case AssertionTypes.IsEqualTo:

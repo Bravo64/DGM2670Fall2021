@@ -1,21 +1,21 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class CheckIntDataBehaviour : MonoBehaviour
+public class CheckFloatDataBehaviourV2 : MonoBehaviour
 {
     public enum Modes { CompareMainToSecondary, CompareMainToVariable}
     public enum AssertionTypes { IsEqualTo, IsGreaterThan, IsLessThan, IsGreaterThanOrEqualTo, IsLessThanOrEqualTo}
 
     public bool checkOnStart = true;
     public Modes mode = Modes.CompareMainToSecondary;
-    public IntData mainIntData;
+    public FloatData mainFloatData;
     public AssertionTypes checkFor = AssertionTypes.IsEqualTo;
-    public IntData secondaryIntData;
-    public int intVariable;
+    public FloatData secondaryFloatData;
+    public float floatVariable;
     public UnityEvent ifStatementIsTrueEvent;
     public UnityEvent elseEvent;
 
-    private int _comparisonValue;
+    private float _comparisonValue;
 
     void Start()
     {
@@ -29,45 +29,45 @@ public class CheckIntDataBehaviour : MonoBehaviour
     {
         if (mode == Modes.CompareMainToSecondary)
         {
-            _comparisonValue = secondaryIntData.value;
+            _comparisonValue = secondaryFloatData.value;
         }
         else
         {
-            _comparisonValue = intVariable;
+            _comparisonValue = floatVariable;
         }
-
+        
         switch (checkFor)
         {
             case AssertionTypes.IsEqualTo:
-                if (mainIntData.value != _comparisonValue) 
+                if (mainFloatData.value != _comparisonValue)
                 {
                     elseEvent.Invoke();
                     return;
                 }
                 break;
             case AssertionTypes.IsGreaterThan:
-                if (mainIntData.value <= _comparisonValue) 
+                if (mainFloatData.value <= _comparisonValue) 
                 {
                     elseEvent.Invoke();
                     return;
                 }
                 break;
             case AssertionTypes.IsLessThan:
-                if (mainIntData.value >= _comparisonValue) 
+                if (mainFloatData.value >= _comparisonValue) 
                 {
                     elseEvent.Invoke();
                     return;
                 }
                 break;
             case AssertionTypes.IsGreaterThanOrEqualTo:
-                if (mainIntData.value < _comparisonValue) 
+                if (mainFloatData.value < _comparisonValue) 
                 {
                     elseEvent.Invoke();
                     return;
                 }
                 break;
             case AssertionTypes.IsLessThanOrEqualTo:
-                if (mainIntData.value > _comparisonValue) 
+                if (mainFloatData.value > _comparisonValue) 
                 {
                     elseEvent.Invoke();
                     return;
