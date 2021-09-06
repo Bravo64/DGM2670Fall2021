@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7448739843122342340}
   m_Layer: 9
   m_Name: Inside Color (2)
-  m_TagString: Untagged
+  m_TagString: Side Boundary
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -427,7 +427,7 @@ GameObject:
   - component: {fileID: 1868485008358412888}
   m_Layer: 9
   m_Name: Inside Color (3)
-  m_TagString: Untagged
+  m_TagString: Side Boundary
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -558,7 +558,7 @@ GameObject:
   - component: {fileID: 1081244353717198266}
   m_Layer: 9
   m_Name: Inside Color (4)
-  m_TagString: Untagged
+  m_TagString: Bottom Boundary
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295

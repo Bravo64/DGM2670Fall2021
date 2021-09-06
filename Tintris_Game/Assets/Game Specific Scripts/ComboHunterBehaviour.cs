@@ -10,7 +10,7 @@ public class ComboHunterBehaviour : MonoBehaviour
     public VoidEvent activateGravityEvent;
     public IntData badDotCount;
     public VoidEvent updateBadDotText;
-    public SceneLoader sceneLoader;
+    public VoidEvent transitionToNextSceneEvent;
     public GameObject[] dotParticlePool;
     public GameObject[] badDotParticlePool;
     public GameObject bomb;
@@ -179,7 +179,7 @@ public class ComboHunterBehaviour : MonoBehaviour
         }
         if (badDotCount.value <= 0)
         {
-            sceneLoader.LoadNextScene();
+            transitionToNextSceneEvent.Raise();
         }
         DeactivateHunter();
     }
