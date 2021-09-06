@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="890ef2db-4b6f-46f8-ade3-90aa20213616" name="Changes" comment="" />
+    <list default="true" id="890ef2db-4b6f-46f8-ade3-90aa20213616" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tintris_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tintris_Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1. Prefabs/Scene Setup/Boundaries.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Prefabs/Scene Setup/Boundaries.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1. Prefabs/Scene Setup/Scene.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Prefabs/Scene Setup/Scene.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Scenes/A. MAIN MENU.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Scenes/A. MAIN MENU.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Scenes/B. LEVEL SELECT MENU.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Scenes/B. LEVEL SELECT MENU.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game Specific Scripts/LevelButtonBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Specific Scripts/LevelButtonBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Transition_Gradient.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Transition_Gradient.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1630733060607</updated>
       <workItem from="1630733066200" duration="876000" />
+      <workItem from="1630887505963" duration="1218000" />
     </task>
     <servers />
   </component>
