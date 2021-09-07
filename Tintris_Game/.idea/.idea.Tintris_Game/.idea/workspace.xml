@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="890ef2db-4b6f-46f8-ade3-90aa20213616" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tintris_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tintris_Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Prefabs/Scene Setup/Boundaries.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Prefabs/Scene Setup/Boundaries.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Prefabs/Scene Setup/Combo Hunters.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Prefabs/Scene Setup/Combo Hunters.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Prefabs/Scene Setup/Scene.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Prefabs/Scene Setup/Scene.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1. Prefabs/Dot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Prefabs/Dot.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game Specific Scripts/ComboHunterBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Specific Scripts/ComboHunterBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game Specific Scripts/DotBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Specific Scripts/DotBehaviour.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +61,7 @@
       <updated>1630733060607</updated>
       <workItem from="1630733066200" duration="876000" />
       <workItem from="1630887505963" duration="1982000" />
+      <workItem from="1630951043415" duration="1012000" />
     </task>
     <servers />
   </component>

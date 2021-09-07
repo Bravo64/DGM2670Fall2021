@@ -24,6 +24,7 @@ public class ComboHunterBehaviour : MonoBehaviour
 
     private int _combosNeededToScore = 4;
     private int _currentFrame = 0;
+    private int _baseIndex = 0;
     private int _maximumFrames = 2;
     private Rigidbody2D _dotParent;
     private int _currentIndex = 0;
@@ -68,7 +69,9 @@ public class ComboHunterBehaviour : MonoBehaviour
             _currentIndex++;
             if (_currentIndex >= _currentComboTrain.Count)
             {
-                _currentIndex = 0;
+                _currentIndex = _baseIndex;
+                _maximumFrames -= _baseIndex;
+                _baseIndex++;
             }
         }
         else
@@ -190,6 +193,7 @@ public class ComboHunterBehaviour : MonoBehaviour
         _currentFrame = 0;
         _currentIndex = 0;
         _maximumFrames = 2;
+        _baseIndex = 0;
         gameObject.SetActive(false);
     }
 }

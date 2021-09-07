@@ -30,6 +30,7 @@ public class DotBehaviour : MonoBehaviour
     public IntData totalNumberOfColors;
     public IntData somethingIsFallingObj;
     public bool badDot = false;
+    public GameObject errorSensor;
 
     [HideInInspector]
     public List<GameObject> potentialCombos = new List<GameObject>();
@@ -138,8 +139,18 @@ public class DotBehaviour : MonoBehaviour
             myRigidbody2D.bodyType = RigidbodyType2D.Dynamic;
             myRigidbody2D.AddForce(Vector2.down * 100);
             _gravityActivated = true;
+            StartCoroutine(WaitTwoFrames());
         }
         StartCoroutine(WaitAndCall());
+    }
+
+    IEnumerator WaitTwoFrames()
+    {
+        yield return 1;
+        if (errorSensor != null)
+        {
+            errorSensor.SetActive(true);
+        }
     }
 
     IEnumerator WaitAndCall()

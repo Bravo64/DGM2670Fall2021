@@ -1303,6 +1303,7 @@ MonoBehaviour:
   totalNumberOfColors: {fileID: 11400000, guid: 8056b1f9f675f4717a2f8293d7c611ec, type: 2}
   somethingIsFallingObj: {fileID: 11400000, guid: f0d3220b0296b40bda07bc3e09b574d3, type: 2}
   badDot: 0
+  errorSensor: {fileID: 6853052665471832982}
   potentialCombos: []
   _gravityActivated: 0
   myRigidbody2D: {fileID: 0}
@@ -1932,7 +1933,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7163166208207320324
 Transform:
   m_ObjectHideFlags: 0
