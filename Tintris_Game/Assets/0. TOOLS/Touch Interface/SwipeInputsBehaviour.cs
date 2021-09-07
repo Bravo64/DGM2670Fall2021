@@ -7,7 +7,7 @@ public class SwipeInputsBehaviour : MonoBehaviour
     private bool tap, swipeLeft, swipeRight, swipeUp, swipeDown, simpleTap, isDragging, justSwiped;
     private Vector2 startTouch, swipeDelta;
     private float _swipePixelLength = 15.0f;
-    private float screenWidthDivisor = 14.0f;
+    private float screenWidthDivisor = 20.0f;
     private bool leftRightDrag = false;
     private float tapHoldTime = 0.0f;
     private float dragHoldTime = 0.0f;
