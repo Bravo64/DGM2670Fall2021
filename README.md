@@ -9,4 +9,5 @@ Saturday, September 4th, 2021: Clear
 Sunday, September 5th, 2021: Slightly Cloudy
 Monday, September 6th, 2021: Cloudy
 Tuesday, September 7th, 2021: Mostly Clear
+Wednesday, September 8th, 2021: Clear
 
