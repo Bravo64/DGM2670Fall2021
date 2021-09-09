@@ -11,6 +11,7 @@ public class SwipeInputsBehaviour : MonoBehaviour
     private bool leftRightDrag = false;
     private float tapHoldTime = 0.0f;
     private float dragHoldTime = 0.0f;
+    private int slowDropFrameSpeed = 45;
 
     public Vector2 SwipeDelta { get { return swipeDelta; } }
     public bool SwipeLeft { get { return swipeLeft; } }
@@ -40,7 +41,7 @@ public class SwipeInputsBehaviour : MonoBehaviour
         }
         else if (Input.GetMouseButtonUp(0))
         {
-            if (shapeScript.dropFrameInterval == 15)
+            if (shapeScript.dropFrameInterval == slowDropFrameSpeed)
             {
                 shapeScript.swipedDown = false;
             }
@@ -93,7 +94,7 @@ public class SwipeInputsBehaviour : MonoBehaviour
                 }
                 else if (Input.touches[0].phase == TouchPhase.Ended || Input.touches[0].phase == TouchPhase.Canceled)
                 {
-                    if (shapeScript.dropFrameInterval == 15)
+                    if (shapeScript.dropFrameInterval == slowDropFrameSpeed)
                     {
                         leftRightDrag = false;
                         shapeScript.swipedDown = false;
@@ -180,9 +181,9 @@ public class SwipeInputsBehaviour : MonoBehaviour
                 {
                     if (!leftRightDrag)
                     {
-                        if (dragHoldTime > 0.65f)
+                        if (dragHoldTime > 0.675f)
                         {
-                            shapeScript.dropFrameInterval = 30;
+                            shapeScript.dropFrameInterval = slowDropFrameSpeed;
                         }
                         else
                         {

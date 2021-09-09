@@ -4,9 +4,12 @@
     <list default="true" id="890ef2db-4b6f-46f8-ade3-90aa20213616" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tintris_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tintris_Game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/0. TOOLS/Touch Interface/SwipeInputsBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0. TOOLS/Touch Interface/SwipeInputsBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1. Prefabs/Scene Setup/Main Camera.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Prefabs/Scene Setup/Main Camera.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1. Prefabs/Scene Setup/Scene.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Prefabs/Scene Setup/Scene.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/2. Scenes/A. MAIN MENU.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Scenes/A. MAIN MENU.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Icon.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Icon.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Scenes/B. LEVEL SELECT MENU.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Scenes/B. LEVEL SELECT MENU.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +66,9 @@
       <workItem from="1630887505963" duration="1982000" />
       <workItem from="1630951043415" duration="1012000" />
       <workItem from="1631045719614" duration="88000" />
-      <workItem from="1631111235722" duration="715000" />
+      <workItem from="1631111235722" duration="859000" />
+      <workItem from="1631149038989" duration="32000" />
+      <workItem from="1631149111780" duration="668000" />
     </task>
     <servers />
   </component>

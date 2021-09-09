@@ -3755,7 +3755,7 @@ GameObject:
   m_Component:
   - component: {fileID: 546251078}
   m_Layer: 0
-  m_Name: Empty Object
+  m_Name: Shape Creator Proxy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
