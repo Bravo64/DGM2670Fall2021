@@ -11,4 +11,5 @@ Monday, September 6th, 2021: Cloudy
 Tuesday, September 7th, 2021: Mostly Clear
 Wednesday, September 8th, 2021: Clear
 Thursday, September 9th, 2021: Mostly Clear
+Friday, September 10th, 2021: Mostly Cloudy, Gray
 
