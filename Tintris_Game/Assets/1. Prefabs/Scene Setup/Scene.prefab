@@ -5409,6 +5409,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 133216ee79d1f47a6b26a45ce8a08b94, type: 2}
+        m_TargetAssemblyTypeName: PlayerPrefLoader, Assembly-CSharp
+        m_MethodName: SavePref
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
       - m_Target: {fileID: 6987261346665959914}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -5439,6 +5451,18 @@ MonoBehaviour:
       - m_Target: {fileID: 11400000, guid: 0307f211aae72486e8854db87520ab9b, type: 2}
         m_TargetAssemblyTypeName: GameEvents.VoidEvent, Assembly-CSharp
         m_MethodName: Raise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 133216ee79d1f47a6b26a45ce8a08b94, type: 2}
+        m_TargetAssemblyTypeName: PlayerPrefLoader, Assembly-CSharp
+        m_MethodName: SavePref
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5670,6 +5694,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 4f6256540f74c4b0da3ebd980bb5bf3d, type: 2}
+        m_TargetAssemblyTypeName: PlayerPrefLoader, Assembly-CSharp
+        m_MethodName: SavePref
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
       - m_Target: {fileID: 8085962166376301800}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -5700,6 +5736,18 @@ MonoBehaviour:
       - m_Target: {fileID: 11400000, guid: 64b640428b17c41fa80891ad9bf0c9d6, type: 2}
         m_TargetAssemblyTypeName: GameEvents.VoidEvent, Assembly-CSharp
         m_MethodName: Raise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 4f6256540f74c4b0da3ebd980bb5bf3d, type: 2}
+        m_TargetAssemblyTypeName: PlayerPrefLoader, Assembly-CSharp
+        m_MethodName: SavePref
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

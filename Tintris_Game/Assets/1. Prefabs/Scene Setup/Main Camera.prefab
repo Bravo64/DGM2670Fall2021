@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 241090338202515597}
   - component: {fileID: 2956817333962369198}
   - component: {fileID: 5072427126232545381}
+  - component: {fileID: 1008320131026854477}
   - component: {fileID: 895676770178439313}
   m_Layer: 0
   m_Name: Main Camera
@@ -194,6 +195,48 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1008320131026854477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 241090338202515571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d167fc5ae5e84174b799d46b7545c0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onAwakeEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 133216ee79d1f47a6b26a45ce8a08b94, type: 2}
+        m_TargetAssemblyTypeName: PlayerPrefLoader, Assembly-CSharp
+        m_MethodName: LoadPref
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 4f6256540f74c4b0da3ebd980bb5bf3d, type: 2}
+        m_TargetAssemblyTypeName: PlayerPrefLoader, Assembly-CSharp
+        m_MethodName: LoadPref
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &895676770178439313
 MonoBehaviour:
   m_ObjectHideFlags: 0
