@@ -33,7 +33,6 @@ public class PlayerPrefLoader : ScriptableObject
         {
             _completeKey = playerPrefSaveKey;
         }
-        PlayerPrefs.SetInt (playerPrefSaveKey, prefIntDataObj.value);
         prefIntDataObj.value = PlayerPrefs.GetInt(_completeKey, 0);
     }
 }

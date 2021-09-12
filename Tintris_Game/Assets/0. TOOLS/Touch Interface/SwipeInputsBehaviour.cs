@@ -154,9 +154,9 @@ public class SwipeInputsBehaviour : MonoBehaviour
         if (swipeDelta.magnitude > _swipePixelLength)
         {
             simpleTap = false;
-            if (Mathf.Abs(x) >= Mathf.Abs(y) || leftRightDrag)
+            if (Mathf.Abs(x) > Mathf.Abs(y) + 5 || leftRightDrag)
             {
-                if (swipeDelta.magnitude > (Screen.width / screenWidthDivisor))
+                if (Mathf.Abs(x) > (Screen.width / screenWidthDivisor))
                 {
                     if (x < 0)
                     {
@@ -175,7 +175,7 @@ public class SwipeInputsBehaviour : MonoBehaviour
                     shapeScript.swipedDown = false;
                 }
             }
-            else if (Mathf.Abs(x) < Mathf.Abs(y))
+            else if (Mathf.Abs(y) > Mathf.Abs(x) + 5)
             {
                 if (y < 0)
                 {

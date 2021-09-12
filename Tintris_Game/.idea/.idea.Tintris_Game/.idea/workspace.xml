@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="890ef2db-4b6f-46f8-ade3-90aa20213616" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tintris_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tintris_Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Prefabs/Scene Setup/ScoreResetter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Prefabs/Scene Setup/ScoreResetter.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0. TOOLS/Touch Interface/SwipeInputsBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0. TOOLS/Touch Interface/SwipeInputsBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0. TOOLS/z. Setup/Scriptable Object Setup/Misc/PlayerPrefLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0. TOOLS/z. Setup/Scriptable Object Setup/Misc/PlayerPrefLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Scenes/A. MAIN MENU.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Scenes/A. MAIN MENU.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game Specific Scripts/LevelButtonBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Specific Scripts/LevelButtonBehaviour.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
@@ -68,6 +71,8 @@
       <workItem from="1631237740795" duration="379000" />
       <workItem from="1631296006590" duration="494000" />
       <workItem from="1631324420307" duration="124000" />
+      <workItem from="1631407125408" duration="408000" />
+      <workItem from="1631412438249" duration="1473000" />
     </task>
     <servers />
   </component>
