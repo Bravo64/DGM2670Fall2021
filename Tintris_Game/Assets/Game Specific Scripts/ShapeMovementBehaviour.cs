@@ -13,7 +13,7 @@ public class ShapeMovementBehaviour : MonoBehaviour
     public GameObjectEvent parentNewDotEvent;
     public bool lockControls = false;
 
-    [HideInInspector] public bool rightMovementLocked, leftMovementLocked, groundDetected;
+    [HideInInspector] public bool rightMovementLocked, leftMovementLocked, groundDetected, freeFallActivated;
 
     private Vector3 _sprinRight = new Vector3(0, 0, -90);
     private WaitForSeconds _waitForSecondsOBJ1;
@@ -46,11 +46,41 @@ public class ShapeMovementBehaviour : MonoBehaviour
         _myAudioSource = GetComponent<AudioSource>();
         StartCoroutine(WaitAndDrop());
     }
+    
+    public void OnFreeFallButtonDown()
+    {
+        freeFallActivated = true;
+        spinRightPressed = false;
+        spinLeftPressed = false;
+        StartCoroutine(DelayFreeFall());
+    }
+
+    IEnumerator DelayFreeFall()
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            freeFallActivated = true;
+            spinRightPressed = false;
+            spinLeftPressed = false;
+            yield return 0;
+        }
+    }
+
+    public void OnFreeFallButtonUp()
+    {
+        spinRightPressed = false;
+        spinLeftPressed = false;
+        StopCoroutine(DelayFreeFall());
+        freeFallActivated = false;
+        swipedDown = true;
+        dropFrameInterval = 1;
+        dropHeld = true;
+    }
 
     private void Update()
     {
         if (lockControls) { return; }
-        
+
         if (Input.GetButtonDown("MoveRight"))
         {
             moveRightPressed = true;
@@ -171,29 +201,35 @@ public class ShapeMovementBehaviour : MonoBehaviour
 
         if (spinRightPressed && !_movementComplete)
         {
-            transform.eulerAngles += _sprinRight;
-            foreach (DotBehaviour dot in myBlockScripts)
+            if (!freeFallActivated)
             {
-                dot.transform.eulerAngles -= _sprinRight;
+                transform.eulerAngles += _sprinRight;
+                foreach (DotBehaviour dot in myBlockScripts)
+                {
+                    dot.transform.eulerAngles -= _sprinRight;
+                }
+                rightMovementLocked = false;
+                leftMovementLocked = false;
+                groundDetected = false;
+                _movementComplete = true;
             }
-            rightMovementLocked = false;
-            leftMovementLocked = false;
-            groundDetected = false;
-            _movementComplete = true;
             spinRightPressed = false;
         }
         
         if (spinLeftPressed && !_movementComplete)
         {
-            transform.eulerAngles -= _sprinRight;
-            foreach (DotBehaviour dot in myBlockScripts)
+            if (!freeFallActivated)
             {
-                dot.transform.eulerAngles += _sprinRight;
+                transform.eulerAngles -= _sprinRight;
+                foreach (DotBehaviour dot in myBlockScripts)
+                {
+                    dot.transform.eulerAngles += _sprinRight;
+                }
+                rightMovementLocked = false;
+                leftMovementLocked = false;
+                groundDetected = false;
+                _movementComplete = true;
             }
-            rightMovementLocked = false;
-            leftMovementLocked = false;
-            groundDetected = false;
-            _movementComplete = true;
             spinLeftPressed = false;
         }
         

@@ -1270,6 +1270,8 @@ GameObject:
   - component: {fileID: -2257695452504091738}
   - component: {fileID: 4201767171576121469}
   - component: {fileID: 2078809418782700411}
+  - component: {fileID: -777509779447286437}
+  - component: {fileID: 1468024232970103998}
   m_Layer: 8
   m_Name: Backwards Stairs-Shape
   m_TagString: Untagged
@@ -1329,6 +1331,7 @@ MonoBehaviour:
   - {fileID: 5031412123774623815}
   - {fileID: 5794659746598202494}
   parentNewDotEvent: {fileID: 11400000, guid: 1774fdf1cf24b4a558914f73e9097db3, type: 2}
+  lockControls: 0
   rightMovementLocked: 0
   leftMovementLocked: 0
   groundDetected: 0
@@ -1438,6 +1441,62 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-777509779447286437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4201767171576121471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c59338710d7cc4dea83749e288eb4d6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 1a4edb1f5f55b4c998505d7a3ff0ccf6, type: 2}
+  unityEventResponse:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4201767171576121469}
+        m_TargetAssemblyTypeName: ShapeMovementBehaviour, Assembly-CSharp
+        m_MethodName: OnFreeFallButtonDown
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1468024232970103998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4201767171576121471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c59338710d7cc4dea83749e288eb4d6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: fb61d3b73b59e47ebaaf75c1667c3580, type: 2}
+  unityEventResponse:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4201767171576121469}
+        m_TargetAssemblyTypeName: ShapeMovementBehaviour, Assembly-CSharp
+        m_MethodName: OnFreeFallButtonUp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4201767172026732707
 GameObject:
   m_ObjectHideFlags: 0
@@ -2795,11 +2854,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4bab51b041394d99bc0c05802d8310e, type: 3}
---- !u!4 &1315807639083777408 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4534444783374677441, guid: a4bab51b041394d99bc0c05802d8310e, type: 3}
-  m_PrefabInstance: {fileID: 3219833567840225345}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &6350679599911252717 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8398369846181067436, guid: a4bab51b041394d99bc0c05802d8310e, type: 3}
@@ -2811,6 +2865,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1d6de3a2f67f4c46ba8de19c3a9d228, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &1315807639083777408 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4534444783374677441, guid: a4bab51b041394d99bc0c05802d8310e, type: 3}
+  m_PrefabInstance: {fileID: 3219833567840225345}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3557327260129647339
 PrefabInstance:
   m_ObjectHideFlags: 0

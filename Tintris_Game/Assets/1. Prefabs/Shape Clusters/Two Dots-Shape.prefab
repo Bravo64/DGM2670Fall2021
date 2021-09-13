@@ -386,6 +386,8 @@ GameObject:
   - component: {fileID: -746405248495215174}
   - component: {fileID: 4033175872650511812}
   - component: {fileID: 8645066393430487120}
+  - component: {fileID: -8271226631725251339}
+  - component: {fileID: 4912451046357510263}
   m_Layer: 8
   m_Name: Two Dots-Shape
   m_TagString: Untagged
@@ -441,6 +443,7 @@ MonoBehaviour:
   - {fileID: 8995549645471958084}
   - {fileID: 7789701198327989457}
   parentNewDotEvent: {fileID: 11400000, guid: 1774fdf1cf24b4a558914f73e9097db3, type: 2}
+  lockControls: 0
   rightMovementLocked: 0
   leftMovementLocked: 0
   groundDetected: 0
@@ -550,6 +553,62 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-8271226631725251339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4033175872650511814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c59338710d7cc4dea83749e288eb4d6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 1a4edb1f5f55b4c998505d7a3ff0ccf6, type: 2}
+  unityEventResponse:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4033175872650511812}
+        m_TargetAssemblyTypeName: ShapeMovementBehaviour, Assembly-CSharp
+        m_MethodName: OnFreeFallButtonDown
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4912451046357510263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4033175872650511814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c59338710d7cc4dea83749e288eb4d6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: fb61d3b73b59e47ebaaf75c1667c3580, type: 2}
+  unityEventResponse:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4033175872650511812}
+        m_TargetAssemblyTypeName: ShapeMovementBehaviour, Assembly-CSharp
+        m_MethodName: OnFreeFallButtonUp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4390590627308671689
 GameObject:
   m_ObjectHideFlags: 0

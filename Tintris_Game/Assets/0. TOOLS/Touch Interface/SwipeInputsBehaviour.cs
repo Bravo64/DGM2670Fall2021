@@ -11,7 +11,7 @@ public class SwipeInputsBehaviour : MonoBehaviour
     private bool leftRightDrag = false;
     private float tapHoldTime = 0.0f;
     private float dragHoldTime = 0.0f;
-    private int slowDropFrameSpeed = 45;
+    private int slowDropFrameSpeed = 65;
 
     public Vector2 SwipeDelta { get { return swipeDelta; } }
     public bool SwipeLeft { get { return swipeLeft; } }
@@ -111,7 +111,10 @@ public class SwipeInputsBehaviour : MonoBehaviour
                                 {
                                     if (tapHoldTime <= 0.85f)
                                     {
-                                        shapeScript.spinRightPressed = true;
+                                        if (!shapeScript.freeFallActivated)
+                                        {
+                                            shapeScript.spinRightPressed = true;
+                                        }
                                     }
                                     tapHoldTime = 0.0f;
                                 }
@@ -119,7 +122,10 @@ public class SwipeInputsBehaviour : MonoBehaviour
                                 {
                                     if (tapHoldTime <= 0.85f)
                                     {
-                                        shapeScript.spinLeftPressed = true;
+                                        if (!shapeScript.freeFallActivated)
+                                        {
+                                            shapeScript.spinLeftPressed = true;
+                                        }
                                     }
                                     tapHoldTime = 0.0f;
                                 }
@@ -181,7 +187,7 @@ public class SwipeInputsBehaviour : MonoBehaviour
                 {
                     if (!leftRightDrag)
                     {
-                        if (dragHoldTime > 0.675f)
+                        if (dragHoldTime > 0.7f)
                         {
                             shapeScript.dropFrameInterval = slowDropFrameSpeed;
                         }
