@@ -3,30 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="890ef2db-4b6f-46f8-ade3-90aa20213616" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tintris_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tintris_Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0. TOOLS/Touch Interface/SwipeInputsBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0. TOOLS/Touch Interface/SwipeInputsBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Prefabs/Scene Setup/Scene.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Prefabs/Scene Setup/Scene.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Prefabs/Scene Setup/Settings Menu Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Prefabs/Scene Setup/Settings Menu Canvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Prefabs/Scene Setup/UI Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Prefabs/Scene Setup/UI Canvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/Backwards Big S-Shape.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/Backwards Big S-Shape.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/Backwards Stairs-Shape.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/Backwards Stairs-Shape.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/Backwards Wacko-Shape.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/Backwards Wacko-Shape.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/Bakcwards Short L-Shape.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/Bakcwards Short L-Shape.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/Big S-Shape.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/Big S-Shape.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/C-Shape.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/C-Shape.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/L Backwards-Shape.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/L Backwards-Shape.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/L-Shape.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/L-Shape.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/Line-Shape.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/Line-Shape.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/S Backwards-Shape.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/S Backwards-Shape.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/S-Shape.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/S-Shape.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/Short L-Shape.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/Short L-Shape.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/Single Dot -Shape.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/Single Dot -Shape.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/Square-Shape.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/Square-Shape.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/Stairs-Shape.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/Stairs-Shape.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/T-Shape.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/T-Shape.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/Two Dots-Shape.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/Two Dots-Shape.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/Wacko-Shape.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Prefabs/Shape Clusters/Wacko-Shape.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2. Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Scenes/Level 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Specific Scripts/ShapeMovementBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Specific Scripts/ShapeMovementBehaviour.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +70,7 @@
       <workItem from="1631495949228" duration="163000" />
       <workItem from="1631497104228" duration="3073000" />
       <workItem from="1631501627614" duration="3113000" />
+      <workItem from="1631549328575" duration="4001000" />
     </task>
     <servers />
   </component>
