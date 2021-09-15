@@ -97,8 +97,8 @@ public class SwipeInputsBehaviour : MonoBehaviour
                     if (shapeScript.dropFrameInterval == slowDropFrameSpeed)
                     {
                         leftRightDrag = false;
-                        shapeScript.swipedDown = false;
                     }
+                    shapeScript.swipedDown = false;
                     isDragging = false;
                     if (swipeDelta.magnitude < _swipePixelLength && !justSwiped && Input.touches[0].phase == TouchPhase.Ended)
                     {
@@ -160,7 +160,7 @@ public class SwipeInputsBehaviour : MonoBehaviour
         if (swipeDelta.magnitude > _swipePixelLength)
         {
             simpleTap = false;
-            if (Mathf.Abs(x) > Mathf.Abs(y) + 5 || leftRightDrag)
+            if (Mathf.Abs(x) > Mathf.Abs(y) + 2 || leftRightDrag)
             {
                 if (Mathf.Abs(x) > (Screen.width / screenWidthDivisor))
                 {
@@ -181,29 +181,16 @@ public class SwipeInputsBehaviour : MonoBehaviour
                     shapeScript.swipedDown = false;
                 }
             }
-            else if (Mathf.Abs(y) > Mathf.Abs(x) + 5)
+            else if (Mathf.Abs(y) > Mathf.Abs(x) + 2)
             {
                 if (y < 0)
                 {
-                    if (!leftRightDrag)
-                    {
-                        if (dragHoldTime > 0.7f)
-                        {
-                            shapeScript.dropFrameInterval = slowDropFrameSpeed;
-                        }
-                        else
-                        {
-                            shapeScript.dropFrameInterval = 1;
-                        }
-                        swipeDown = true;
-                        shapeScript.dropHeld = true;
-                        shapeScript.swipedDown = true;
-                        shapeScript.moveRightPressed = false;
-                        shapeScript.moveLeftPressed = false;
-                        shapeScript.spinRightPressed = false;
-                        shapeScript.spinLeftPressed = false;
-                        dragHoldTime = 0.0f;
-                    }
+                    startTouch += swipeDelta;
+                    shapeScript.swipedDown = true;
+                    shapeScript.moveRightPressed = false;
+                    shapeScript.moveLeftPressed = false;
+                    shapeScript.spinRightPressed = false;
+                    shapeScript.spinLeftPressed = false;
                 }
                 else
                 {

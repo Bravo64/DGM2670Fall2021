@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="890ef2db-4b6f-46f8-ade3-90aa20213616" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tintris_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tintris_Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0. TOOLS/Touch Interface/SwipeInputsBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0. TOOLS/Touch Interface/SwipeInputsBehaviour.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +72,7 @@
       <workItem from="1631497104228" duration="3073000" />
       <workItem from="1631501627614" duration="3113000" />
       <workItem from="1631549328575" duration="4001000" />
+      <workItem from="1631720587552" duration="776000" />
     </task>
     <servers />
   </component>
