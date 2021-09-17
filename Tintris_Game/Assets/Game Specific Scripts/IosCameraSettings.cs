@@ -3,7 +3,12 @@ using UnityEngine;
 [RequireComponent(typeof(Camera))]
 public class IosCameraSettings : MonoBehaviour
 {
+    public bool alignShapeCreator = true;
     public Transform shapeCreator;
+    public bool alignPauseMenu = false;
+    public Transform pauseMenu;
+    public bool alignSettingsMenu = false;
+    public Transform settingsMenu;
     
     private Camera _myCameraComponent;
     private int[] deviceWidths = new[] {750, 1080, 1125, 828, 1242, 1536, 2048, 1668, 640, 768, 1125};
@@ -40,6 +45,17 @@ public class IosCameraSettings : MonoBehaviour
         #endif
         _myCameraComponent.orthographicSize = cameraSizes[_deviceIndex];
         transform.position = new Vector3(transform.position.x, cameraYPos[_deviceIndex], transform.position.z);
-        shapeCreator.position = new Vector3(shapeCreator.position.x, shapeCreatorYPos[_deviceIndex], shapeCreator.position.z);
+        if (alignShapeCreator)
+        {
+            shapeCreator.position = new Vector3(shapeCreator.position.x, shapeCreatorYPos[_deviceIndex], 0);
+        }
+        if (alignPauseMenu)
+        {
+            pauseMenu.position = new Vector3(pauseMenu.position.x, pauseMenu.position.y + shapeCreatorYPos[_deviceIndex]/3, 0);
+        }
+        if (alignSettingsMenu)
+        {
+            settingsMenu.position = new Vector3(settingsMenu.position.x, settingsMenu.position.y + shapeCreatorYPos[_deviceIndex]/3, 0);
+        }
     }
 }

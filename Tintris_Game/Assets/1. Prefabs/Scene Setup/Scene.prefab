@@ -3954,6 +3954,14 @@ PrefabInstance:
       value: Main Camera
       objectReference: {fileID: 0}
     - target: {fileID: 241090338202515597, guid: e065dc4e84cac468ca7182a636cfc65c, type: 3}
+      propertyPath: pauseMenu
+      value: 
+      objectReference: {fileID: 3260434050607824743}
+    - target: {fileID: 241090338202515597, guid: e065dc4e84cac468ca7182a636cfc65c, type: 3}
+      propertyPath: settingsMenu
+      value: 
+      objectReference: {fileID: 1248510058101032488}
+    - target: {fileID: 241090338202515597, guid: e065dc4e84cac468ca7182a636cfc65c, type: 3}
       propertyPath: shapeCreator
       value: 
       objectReference: {fileID: 5392227378529656}

@@ -1282,6 +1282,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scene
       objectReference: {fileID: 0}
+    - target: {fileID: 8796381933764750891, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: alignPauseMenu
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796381933764750891, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: alignSettingsMenu
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8954455265229902975, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
       propertyPath: m_RootOrder
       value: 0

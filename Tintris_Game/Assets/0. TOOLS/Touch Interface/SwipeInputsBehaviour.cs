@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class SwipeInputsBehaviour : MonoBehaviour
 {
@@ -55,17 +56,17 @@ public class SwipeInputsBehaviour : MonoBehaviour
                     {
                         if (Input.mousePosition.x > Screen.width/2.0f)
                         {
-                            if (tapHoldTime <= 0.8f)
+                            if (tapHoldTime <= 0.85f)
                             {
-                                shapeScript.spinRightPressed = true;
+                                StartCoroutine(SpinRightInTwoFrames());
                             }
                             tapHoldTime = 0.0f;
                         }
                         else
                         {
-                            if (tapHoldTime <= 0.8f)
+                            if (tapHoldTime <= 0.85f)
                             {
-                                shapeScript.spinLeftPressed = true;
+                                StartCoroutine(SpinLeftInTwoFrames());
                             }
                             tapHoldTime = 0.0f;
                         }
@@ -111,10 +112,7 @@ public class SwipeInputsBehaviour : MonoBehaviour
                                 {
                                     if (tapHoldTime <= 0.85f)
                                     {
-                                        if (!shapeScript.freeFallActivated)
-                                        {
-                                            shapeScript.spinRightPressed = true;
-                                        }
+                                        StartCoroutine(SpinRightInTwoFrames());
                                     }
                                     tapHoldTime = 0.0f;
                                 }
@@ -122,10 +120,7 @@ public class SwipeInputsBehaviour : MonoBehaviour
                                 {
                                     if (tapHoldTime <= 0.85f)
                                     {
-                                        if (!shapeScript.freeFallActivated)
-                                        {
-                                            shapeScript.spinLeftPressed = true;
-                                        }
+                                        StartCoroutine(SpinLeftInTwoFrames());
                                     }
                                     tapHoldTime = 0.0f;
                                 }
@@ -202,7 +197,19 @@ public class SwipeInputsBehaviour : MonoBehaviour
         }
 
     }
+    
+    IEnumerator SpinRightInTwoFrames()
+    {
+        yield return 2;
+        shapeScript.spinRightPressed = true;
+    }
 
+    IEnumerator SpinLeftInTwoFrames()
+    {
+        yield return 2;
+        shapeScript.spinLeftPressed = true;
+    }
+    
     private void Reset()
     {
         startTouch = swipeDelta = Vector2.zero;

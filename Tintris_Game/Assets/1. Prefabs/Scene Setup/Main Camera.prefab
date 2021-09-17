@@ -114,7 +114,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f8986fa73b294fc7a395ebab13882c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  alignShapeCreator: 1
   shapeCreator: {fileID: 0}
+  alignPauseMenu: 1
+  pauseMenu: {fileID: 0}
+  alignSettingsMenu: 1
+  settingsMenu: {fileID: 0}
 --- !u!114 &2956817333962369198
 MonoBehaviour:
   m_ObjectHideFlags: 0

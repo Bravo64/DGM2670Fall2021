@@ -7,13 +7,13 @@ using UnityEngine;
 public class ShapeMovementBehaviour : MonoBehaviour
 {
     public VoidEvent createNewShape;
-    public float dropInterval = 1.0f;
+    public float dropInterval = 0.75f;
     public GameObject sensorChildren;
     public DotBehaviour[] myBlockScripts;
     public GameObjectEvent parentNewDotEvent;
     public bool lockControls = false;
 
-    [HideInInspector] public bool rightMovementLocked, leftMovementLocked, groundDetected, freeFallActivated;
+    [HideInInspector] public bool rightMovementLocked, leftMovementLocked, groundDetected;
 
     private Vector3 _sprinRight = new Vector3(0, 0, -90);
     private WaitForSeconds _waitForSecondsOBJ1;
@@ -25,6 +25,7 @@ public class ShapeMovementBehaviour : MonoBehaviour
     private float _rightHoldTime = 0.75f;
     private float _leftHoldTime = 0.75f;
     private bool _movementComplete = false;
+    private bool _processingFreeFall = false;
 
     [HideInInspector] public bool moveRightPressed = false;
     [HideInInspector] public bool moveRightHeld = false;
@@ -49,32 +50,27 @@ public class ShapeMovementBehaviour : MonoBehaviour
     
     public void OnFreeFallButtonDown()
     {
-        freeFallActivated = true;
+        _processingFreeFall = true;
         spinRightPressed = false;
         spinLeftPressed = false;
-        StartCoroutine(DelayFreeFall());
+        StartCoroutine(KeepFalling());
     }
 
-    IEnumerator DelayFreeFall()
+    IEnumerator KeepFalling()
     {
-        for (int i = 0; i < 3; i++)
+        for (int i = 0; i < 20; i++)
         {
-            freeFallActivated = true;
             spinRightPressed = false;
             spinLeftPressed = false;
+            dropPressed = true;
+            dropHeld = true;
+            _dropHoldTime = 0;
+            swipedDown = true;
+            dropFrameInterval = 0;
+            dropInterval = 0.01f;
             yield return 0;
         }
-    }
-
-    public void OnFreeFallButtonUp()
-    {
-        spinRightPressed = false;
-        spinLeftPressed = false;
-        StopCoroutine(DelayFreeFall());
-        freeFallActivated = false;
-        swipedDown = true;
-        dropFrameInterval = 1;
-        dropHeld = true;
+        _processingFreeFall = false;
     }
 
     private void Update()
@@ -199,11 +195,9 @@ public class ShapeMovementBehaviour : MonoBehaviour
             _movementComplete = true;
         }
 
-        if (spinRightPressed && !_movementComplete)
+        if (spinRightPressed && !_movementComplete && !_processingFreeFall)
         {
-            if (!freeFallActivated)
-            {
-                transform.eulerAngles += _sprinRight;
+            transform.eulerAngles += _sprinRight;
                 foreach (DotBehaviour dot in myBlockScripts)
                 {
                     dot.transform.eulerAngles -= _sprinRight;
@@ -212,15 +206,12 @@ public class ShapeMovementBehaviour : MonoBehaviour
                 leftMovementLocked = false;
                 groundDetected = false;
                 _movementComplete = true;
-            }
-            spinRightPressed = false;
+                spinRightPressed = false;
         }
         
-        if (spinLeftPressed && !_movementComplete)
+        if (spinLeftPressed && !_movementComplete && !_processingFreeFall)
         {
-            if (!freeFallActivated)
-            {
-                transform.eulerAngles -= _sprinRight;
+            transform.eulerAngles -= _sprinRight;
                 foreach (DotBehaviour dot in myBlockScripts)
                 {
                     dot.transform.eulerAngles += _sprinRight;
@@ -229,8 +220,7 @@ public class ShapeMovementBehaviour : MonoBehaviour
                 leftMovementLocked = false;
                 groundDetected = false;
                 _movementComplete = true;
-            }
-            spinLeftPressed = false;
+                spinLeftPressed = false;
         }
         
         if (dropPressed && !groundDetected && !_movementComplete)

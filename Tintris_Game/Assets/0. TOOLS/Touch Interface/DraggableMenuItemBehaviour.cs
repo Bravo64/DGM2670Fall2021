@@ -12,6 +12,7 @@ public class DraggableMenuItemBehaviour : MonoBehaviour
     private float _smoothTime = 0.003f;
     private float _snappingSmoothTime = 0.25f;
     private Vector3 _savedPosition;
+    private float _savedYPos;
 
     private void Update()
     {
@@ -54,7 +55,7 @@ public class DraggableMenuItemBehaviour : MonoBehaviour
     {
         SaveInputPosition();
         _currentPos = Camera.main.ScreenToWorldPoint(_savedInputPos) + _offset;
-        _currentPos.y = 0;
+        _currentPos.y = transform.position.y;
         transform.position = Vector3.SmoothDamp(transform.position, _currentPos, ref _velocity, _smoothTime);
         _dragging = true;
     }
