@@ -17,3 +17,4 @@ Sunday, September 12th, 2021: Mostly Clear
 Monday, September 13th, 2021: Mostly Clear
 Tuesday, September 14th, 2021: Clear
 Wednesday, September 15th, 2021: Clear, Slightly smokey
+Thursday, September 16th, 2021: Mostly Clear
