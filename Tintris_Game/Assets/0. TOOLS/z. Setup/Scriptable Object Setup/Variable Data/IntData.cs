@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
 
 [CreateAssetMenu(fileName = "New Integer Variable", menuName = "Variable/Integer")]
@@ -64,5 +65,10 @@ public class IntData : ScriptableObject
     public void RandomMinOne(int maxValue)
     {
         value = Random.Range(1, maxValue);
+    }
+    
+    public void SetValueToCurrentLevelIndex(int adjustment)
+    {
+        value = SceneManager.GetActiveScene().buildIndex + adjustment;
     }
 }
