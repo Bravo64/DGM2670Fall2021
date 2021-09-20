@@ -20,3 +20,4 @@ Wednesday, September 15th, 2021: Clear, Slightly smokey
 Thursday, September 16th, 2021: Mostly Clear
 Friday, September 17th, 2021: Clear
 Saturday, September 18th, 2021: Rainy
+Sunday, September 19th, 2021: Windy, Cloudy
