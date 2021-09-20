@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="890ef2db-4b6f-46f8-ade3-90aa20213616" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/0. TOOLS/Touch Interface/SwipeInputsBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0. TOOLS/Touch Interface/SwipeInputsBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0. TOOLS/z. Setup/Scriptable Object Setup/Variable Data/IntData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0. TOOLS/z. Setup/Scriptable Object Setup/Variable Data/IntData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1. Prefabs/Scene Setup/UI Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Prefabs/Scene Setup/UI Canvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +80,7 @@
       <workItem from="1631758565528" duration="3875000" />
       <workItem from="1631766107831" duration="160000" />
       <workItem from="1631903674165" duration="133000" />
+      <workItem from="1632006842114" duration="646000" />
     </task>
     <servers />
   </component>
