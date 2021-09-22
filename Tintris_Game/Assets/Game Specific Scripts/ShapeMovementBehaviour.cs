@@ -11,33 +11,20 @@ public class ShapeMovementBehaviour : MonoBehaviour
     public GameObject sensorChildren;
     public DotBehaviour[] myBlockScripts;
     public GameObjectEvent parentNewDotEvent;
-    public bool lockControls = false;
-
-    [HideInInspector] public bool rightMovementLocked, leftMovementLocked, groundDetected;
+    public bool lockControls;
 
     private Vector3 _sprinRight = new Vector3(0, 0, -90);
-    private WaitForSeconds _waitForSecondsOBJ1;
-    private WaitForSeconds _waitForSecondsOBJ2;
+    private WaitForSeconds _waitForSecondsOBJ1, _waitForSecondsOBJ2;
     private AudioSource _myAudioSource;
-    private int _droppedLastFrame;
-    private int _sideLastFrame = 4;
-    private float _dropHoldTime = 0.75f;
-    private float _rightHoldTime = 0.75f;
-    private float _leftHoldTime = 0.75f;
-    private bool _movementComplete = false;
-    private bool _processingFreeFall = false;
+    private int _droppedLastFrame, _sideLastFrame = 4;
+    private float _dropHoldTime = 0.75f, _rightHoldTime = 0.75f, _leftHoldTime = 0.75f;
+    private bool _movementComplete, _processingFreeFall;
 
-    [HideInInspector] public bool moveRightPressed = false;
-    [HideInInspector] public bool moveRightHeld = false;
-    [HideInInspector] public bool moveLeftPressed = false;
-    [HideInInspector] public bool moveLeftHeld = false;
-    [HideInInspector] public bool dropPressed = false;
-    [HideInInspector] public bool dropHeld = false;
-    [HideInInspector] public bool spinRightPressed = false;
-    [HideInInspector] public bool spinLeftPressed = false;
+    [HideInInspector] public bool rightMovementLocked, leftMovementLocked, 
+        groundDetected, swipedDown, moveRightPressed, moveRightHeld, 
+        moveLeftPressed, moveLeftHeld, dropPressed, dropHeld, 
+        spinRightPressed, spinLeftPressed;
     [HideInInspector] public int dropFrameInterval = 10;
-    
-    [HideInInspector] public bool swipedDown = false;
 
     private void Start()
     {
@@ -51,8 +38,7 @@ public class ShapeMovementBehaviour : MonoBehaviour
     public void OnFreeFallButtonDown()
     {
         _processingFreeFall = true;
-        spinRightPressed = false;
-        spinLeftPressed = false;
+        spinRightPressed = spinLeftPressed = false;
         StartCoroutine(KeepFalling());
     }
 
@@ -60,13 +46,9 @@ public class ShapeMovementBehaviour : MonoBehaviour
     {
         for (int i = 0; i < 20; i++)
         {
-            spinRightPressed = false;
-            spinLeftPressed = false;
-            dropPressed = true;
-            dropHeld = true;
-            _dropHoldTime = 0;
-            swipedDown = true;
-            dropFrameInterval = 0;
+            spinRightPressed = spinLeftPressed = false;
+            dropPressed = dropHeld = swipedDown = true;
+            _dropHoldTime = dropFrameInterval = 0;
             dropInterval = 0.01f;
             yield return 0;
         }
@@ -79,8 +61,7 @@ public class ShapeMovementBehaviour : MonoBehaviour
 
         if (Input.GetButtonDown("MoveRight"))
         {
-            moveRightPressed = true;
-            moveRightHeld = true;
+            moveRightPressed = moveRightHeld = true;
         }
         
         if (Input.GetButtonUp("MoveRight") || !Input.GetButton("MoveRight"))
@@ -91,8 +72,7 @@ public class ShapeMovementBehaviour : MonoBehaviour
         
         if (Input.GetButtonDown("MoveLeft"))
         {
-            moveLeftPressed = true;
-            moveLeftHeld = true;
+            moveLeftPressed = moveLeftHeld = true;
         }
         
         if (Input.GetButtonUp("MoveLeft") || !Input.GetButton("MoveLeft"))
@@ -103,8 +83,7 @@ public class ShapeMovementBehaviour : MonoBehaviour
         
         if (Input.GetButtonDown("Drop"))
         {
-            dropPressed = true;
-            dropHeld = true;
+            dropPressed = dropHeld = true;
         }
         
         if (Input.GetButtonUp("Drop") || !Input.GetButton("Drop") && !swipedDown)
@@ -137,9 +116,8 @@ public class ShapeMovementBehaviour : MonoBehaviour
         {
             if (!rightMovementLocked)
             {
-                groundDetected = false;
+                groundDetected = leftMovementLocked = false;
                 transform.position += Vector3.right;
-                leftMovementLocked = false;
             }
             moveRightPressed = false;
         }
@@ -148,9 +126,8 @@ public class ShapeMovementBehaviour : MonoBehaviour
         {
             if (!leftMovementLocked)
             {
-                groundDetected = false;
+                groundDetected = rightMovementLocked = false;
                 transform.position += Vector3.left;
-                rightMovementLocked = false;
             }
             moveLeftPressed = false;
         }
@@ -163,8 +140,7 @@ public class ShapeMovementBehaviour : MonoBehaviour
                 if (_sideLastFrame < 0)
                 {
                     transform.position += Vector3.right;
-                    groundDetected = false;
-                    leftMovementLocked = false;
+                    groundDetected = leftMovementLocked = false;
                     _sideLastFrame = 4;
                 }
                 else
@@ -183,8 +159,7 @@ public class ShapeMovementBehaviour : MonoBehaviour
                 if (_sideLastFrame < 0)
                 {
                     transform.position += Vector3.left;
-                    groundDetected = false;
-                    rightMovementLocked = false;
+                    groundDetected = rightMovementLocked = false;
                     _sideLastFrame = 4;
                 }
                 else
@@ -202,11 +177,8 @@ public class ShapeMovementBehaviour : MonoBehaviour
                 {
                     dot.transform.eulerAngles -= _sprinRight;
                 }
-                rightMovementLocked = false;
-                leftMovementLocked = false;
-                groundDetected = false;
+                rightMovementLocked = leftMovementLocked = groundDetected = spinRightPressed = false;
                 _movementComplete = true;
-                spinRightPressed = false;
         }
         
         if (spinLeftPressed && !_movementComplete && !_processingFreeFall)
@@ -216,20 +188,15 @@ public class ShapeMovementBehaviour : MonoBehaviour
                 {
                     dot.transform.eulerAngles += _sprinRight;
                 }
-                rightMovementLocked = false;
-                leftMovementLocked = false;
-                groundDetected = false;
+                rightMovementLocked = leftMovementLocked = groundDetected = spinLeftPressed = false;
                 _movementComplete = true;
-                spinLeftPressed = false;
         }
         
         if (dropPressed && !groundDetected && !_movementComplete)
         {
             transform.position += Vector3.down;
-            rightMovementLocked = false;
-            leftMovementLocked = false;
+            rightMovementLocked = leftMovementLocked = dropPressed = false;
             _movementComplete = true;
-            dropPressed = false;
         }
         
         if (dropHeld && !groundDetected && !_movementComplete)
@@ -240,8 +207,7 @@ public class ShapeMovementBehaviour : MonoBehaviour
                 if (_droppedLastFrame < 0)
                 {
                     transform.position += Vector3.down;
-                    rightMovementLocked = false;
-                    leftMovementLocked = false;
+                    rightMovementLocked = leftMovementLocked = false;
                     _movementComplete = true;
                     _droppedLastFrame = dropFrameInterval;
                 }
@@ -252,11 +218,7 @@ public class ShapeMovementBehaviour : MonoBehaviour
             }
         }
 
-        moveRightPressed = false;
-        moveLeftPressed = false;
-        spinRightPressed = false;
-        spinLeftPressed = false;
-        dropPressed = false;
+        moveRightPressed = moveLeftPressed = spinRightPressed = spinLeftPressed = dropPressed = false;
     }
 
     IEnumerator WaitAndDrop()
@@ -274,8 +236,7 @@ public class ShapeMovementBehaviour : MonoBehaviour
             if (!groundDetected)
             {
                 transform.position += Vector3.down;
-                rightMovementLocked = false;
-                leftMovementLocked = false;
+                rightMovementLocked = leftMovementLocked = false;
             }
             else
             {
@@ -306,9 +267,7 @@ public class ShapeMovementBehaviour : MonoBehaviour
                 StopAllCoroutines();
                 Destroy(gameObject, 0.4f);
             }
-            _movementComplete = false;
-            moveLeftPressed = false;
-            moveRightPressed = false;
+            _movementComplete = moveLeftPressed = moveRightPressed = false;
         }
     }
 }
