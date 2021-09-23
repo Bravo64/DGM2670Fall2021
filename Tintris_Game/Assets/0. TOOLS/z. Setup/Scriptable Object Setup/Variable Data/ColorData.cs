@@ -4,7 +4,7 @@ using UnityEngine.UI;
 [CreateAssetMenu(fileName = "New Color Variable", menuName = "Variable/Color")]
 public class ColorData : ScriptableObject
 {
-    public Color value;
+    public Color value = Color.white;
     
     public void ChangeImageColor(Image imgObj)
     {

@@ -32,15 +32,12 @@ public class DotBehaviour : MonoBehaviour
     public bool badDot = false;
     public GameObject errorSensor;
 
-    [HideInInspector]
-    public List<GameObject> potentialCombos = new List<GameObject>();
-    [HideInInspector]
-    public bool _gravityActivated = false;
+    [HideInInspector] public List<GameObject> potentialCombos = new List<GameObject>();
+    [HideInInspector] public bool _gravityActivated = false;
     private int _randomIndex;
     private bool _creationPeriod = true;
     private bool _disabledConnectors = false;
-    [HideInInspector]
-    public Rigidbody2D myRigidbody2D;
+    [HideInInspector] public Rigidbody2D myRigidbody2D;
 
     private Color[] _colors = new Color[]
     {
