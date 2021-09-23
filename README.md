@@ -24,3 +24,4 @@ Sunday, September 19th, 2021: Windy, Cloudy
 Monday, September 20th, 2021: Clear
 Tuesday, September 21st, 2021: Clear
 Wednesday, September 22nd, 2021: Clear
+Thursday, September 23rd, 2021: Cloudy
