@@ -244,9 +244,8 @@ public class ShapeMovementBehaviour : MonoBehaviour
                 yield return 2;
                 while (!groundDetected)
                 {
-                    yield return 1;
+                    yield return 3;
                     transform.position += Vector3.down;
-                    yield return 1;
                 }
                 _myAudioSource.Play();
                 foreach (DotBehaviour blockScript in myBlockScripts)

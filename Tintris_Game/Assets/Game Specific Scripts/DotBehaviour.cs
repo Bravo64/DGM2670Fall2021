@@ -23,20 +23,15 @@ public class DotBehaviour : MonoBehaviour
     public SpriteRenderer colorSpriteRenderer;
     public Transform[] comboConnectorPivots;
     public SpriteRenderer[] comboConnectorSprites;
-    public GameObject comboSensor;
-    public GameObject groundSensor;
-    public GameObjectEvent activateComboHunter;
-    public GameObjectEvent colorAppliedEvent;
-    public IntData totalNumberOfColors;
-    public IntData somethingIsFallingObj;
+    public GameObject comboSensor, groundSensor, errorSensor;
+    public GameObjectEvent activateComboHunter, colorAppliedEvent;
+    public IntData totalNumberOfColors, somethingIsFallingObj;
     public bool badDot = false;
-    public GameObject errorSensor;
 
     [HideInInspector] public List<GameObject> potentialCombos = new List<GameObject>();
     [HideInInspector] public bool _gravityActivated = false;
     private int _randomIndex;
-    private bool _creationPeriod = true;
-    private bool _disabledConnectors = false;
+    private bool _creationPeriod = true, _disabledConnectors;
     [HideInInspector] public Rigidbody2D myRigidbody2D;
 
     private Color[] _colors = new Color[]
@@ -197,9 +192,7 @@ public class DotBehaviour : MonoBehaviour
         }
         colorSpriteRenderer.color = _colors[_randomIndex];
         string colorTag = _colorNames[_randomIndex];
-        colorSpriteRenderer.gameObject.tag = colorTag;
-        gameObject.tag = colorTag;
-        comboSensor.tag = colorTag;
+        colorSpriteRenderer.gameObject.tag = gameObject.tag = comboSensor.tag = colorTag;
         colorAppliedEvent.Raise(gameObject);
     }
 
