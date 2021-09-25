@@ -12,7 +12,7 @@ public class SwipeInputsBehaviour : MonoBehaviour
     private bool leftRightDrag = false;
     private float tapHoldTime = 0.0f;
     private float dragHoldTime = 0.0f;
-    private int slowDropFrameSpeed = 43;
+    private int slowDropFrameSpeed = 50;
 
     public Vector2 SwipeDelta { get { return swipeDelta; } }
     public bool SwipeLeft { get { return swipeLeft; } }
