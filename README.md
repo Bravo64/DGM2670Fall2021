@@ -27,3 +27,4 @@ Wednesday, September 22nd, 2021: Clear
 Thursday, September 23rd, 2021: Cloudy
 Friday, September 24th, 2021: Clear
 Saturday, September 25th, 2021: Mostly Clear
+Sunday, September 26th, 2021: Clear
