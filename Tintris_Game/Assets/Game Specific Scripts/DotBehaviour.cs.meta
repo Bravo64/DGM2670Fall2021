@@ -3,7 +3,17 @@ guid: f1d6de3a2f67f4c46ba8de19c3a9d228
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - colorSpriteRenderer: {instanceID: 0}
+  - comboSensor: {instanceID: 0}
+  - groundSensor: {instanceID: 0}
+  - errorSensor: {instanceID: 0}
+  - activateComboHunter: {instanceID: 0}
+  - colorAppliedEvent: {instanceID: 0}
+  - totalNumberOfColors: {instanceID: 0}
+  - somethingIsFallingObj: {instanceID: 0}
+  - colorCollectionSo: {fileID: 11400000, guid: ca35282e8ec554c48a33bef6cac71fbd, type: 2}
+  - myRigidbody2D: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -26,6 +26,7 @@ public class DotBehaviour : MonoBehaviour
     public GameObject comboSensor, groundSensor, errorSensor;
     public GameObjectEvent activateComboHunter, colorAppliedEvent;
     public IntData totalNumberOfColors, somethingIsFallingObj;
+    public ColorCollectionSO colorCollectionSo;
     public bool badDot = false;
 
     [HideInInspector] public List<GameObject> potentialCombos = new List<GameObject>();
@@ -186,11 +187,12 @@ public class DotBehaviour : MonoBehaviour
     public void AssignRandomColor()
     {
         _randomIndex = Random.Range(0, totalNumberOfColors.value);
+        Color chosenColor = colorCollectionSo.colorCollection[_randomIndex].value;
         foreach (var connector in comboConnectorSprites)
         {
-            connector.color = _colors[_randomIndex];
+            connector.color = chosenColor;
         }
-        colorSpriteRenderer.color = _colors[_randomIndex];
+        colorSpriteRenderer.color = chosenColor;
         string colorTag = _colorNames[_randomIndex];
         colorSpriteRenderer.gameObject.tag = gameObject.tag = comboSensor.tag = colorTag;
         colorAppliedEvent.Raise(gameObject);
