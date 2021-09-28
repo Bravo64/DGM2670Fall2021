@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a187246822bbb47529482707f3e0eff8, type: 3}
-  m_Name: GoogleMobileAdsSettings
+  m_Script: {fileID: 11500000, guid: ca74c5455891a4c799f266f6d9013035, type: 3}
+  m_Name: Personal Best Loader Obj
   m_EditorClassIdentifier: 
-  adMobAndroidAppId: 
-  adMobIOSAppId: 
-  delayAppMeasurementInit: 0
+  prefIntDataObj: {fileID: 11400000, guid: e76e7b37c711d48db8404d55bd55a0cf, type: 2}
+  attachSceneIndexToKey: 1
+  playerPrefSaveKey: '#@(%&#@^!!'

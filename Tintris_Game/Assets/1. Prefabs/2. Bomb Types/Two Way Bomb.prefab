@@ -568,10 +568,12 @@ MonoBehaviour:
   - {fileID: 4950785176083755613}
   comboSensor: {fileID: 1767829603397391257}
   groundSensor: {fileID: 2462987603095005696}
+  errorSensor: {fileID: 0}
   activateComboHunter: {fileID: 11400000, guid: 33644a438e5e54b6bb72f0ed94ffe40b, type: 2}
   colorAppliedEvent: {fileID: 11400000, guid: c558fcd5d4e0f40b2a0ee2ee9a1007d7, type: 2}
   totalNumberOfColors: {fileID: 11400000, guid: 8056b1f9f675f4717a2f8293d7c611ec, type: 2}
   somethingIsFallingObj: {fileID: 11400000, guid: f0d3220b0296b40bda07bc3e09b574d3, type: 2}
+  colorCollectionSo: {fileID: 11400000, guid: ca35282e8ec554c48a33bef6cac71fbd, type: 2}
   badDot: 0
   potentialCombos: []
   _gravityActivated: 0

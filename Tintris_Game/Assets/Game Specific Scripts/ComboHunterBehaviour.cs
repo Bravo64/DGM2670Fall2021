@@ -30,6 +30,9 @@ public class ComboHunterBehaviour : MonoBehaviour
     private int _currentIndex = 0;
     private bool _bombPlanted = false;
     private int _combosNeededForBomb = 3;
+    public IntData turnsTaken;
+    public IntData levelPersonalBest;
+    public PlayerPrefLoader personalBestLoader;
 
     public void ActivateComboHunter(GameObject inputGameObject)
     {
@@ -182,6 +185,11 @@ public class ComboHunterBehaviour : MonoBehaviour
         }
         if (badDotCount.value <= 0)
         {
+            if (turnsTaken.value < levelPersonalBest.value)
+            {
+                levelPersonalBest.value = turnsTaken.value;
+                personalBestLoader.SavePref();
+            }
             transitionToNextSceneEvent.Raise();
         }
         DeactivateHunter();
