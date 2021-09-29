@@ -30,3 +30,4 @@ Saturday, September 25th, 2021: Mostly Clear
 Sunday, September 26th, 2021: Clear
 Monday, September 27th, 2021: Clear
 Tuesday, September 28th, 2021: Cloudy, Windy
+Wednesday, September 29th, 2021: Cloudy, Rainy
