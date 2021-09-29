@@ -1244,6 +1244,38 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 715328222, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5392227378529656, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1248510058101032488, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 2459911409324039258, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2745220755178424902, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2804704611395189414, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 2914583998950330168, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3260434050607824743, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 3471651344638818061, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
       propertyPath: m_Name
       value: Fall Arrow
@@ -1252,6 +1284,46 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scene
       objectReference: {fileID: 0}
+    - target: {fileID: 5740094487476461177, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 8355468199727947575, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8581321532272035697, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8600119336988113907, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796381931776116124, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796381932657528212, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796381932845654711, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796381932867276350, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796381933276464524, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796381933764750889, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8796381933764750891, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
       propertyPath: alignPauseMenu
       value: 1
@@ -1259,6 +1331,14 @@ PrefabInstance:
     - target: {fileID: 8796381933764750891, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
       propertyPath: alignSettingsMenu
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796381933828938699, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8922535045582090667, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8954455265229902975, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
       propertyPath: m_RootOrder

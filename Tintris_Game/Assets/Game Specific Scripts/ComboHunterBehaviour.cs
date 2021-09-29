@@ -9,13 +9,15 @@ public class ComboHunterBehaviour : MonoBehaviour
 {
     public VoidEvent activateGravityEvent;
     public IntData badDotCount;
-    public VoidEvent updateBadDotText;
-    public VoidEvent transitionToNextSceneEvent;
+    public VoidEvent updateBadDotText, levelCompleteEvent;
     public GameObject[] dotParticlePool;
     public GameObject[] badDotParticlePool;
     public GameObject bomb;
     public IntData currentComboCount;
     public AudioSource _awardAudioSource;
+    public IntData turnsTaken;
+    public IntData levelPersonalBest;
+    public PlayerPrefLoader personalBestLoader;
     
     private bool _hunterEnabled;
     private string _targetTag;
@@ -30,9 +32,6 @@ public class ComboHunterBehaviour : MonoBehaviour
     private int _currentIndex = 0;
     private bool _bombPlanted = false;
     private int _combosNeededForBomb = 3;
-    public IntData turnsTaken;
-    public IntData levelPersonalBest;
-    public PlayerPrefLoader personalBestLoader;
 
     public void ActivateComboHunter(GameObject inputGameObject)
     {
@@ -190,7 +189,7 @@ public class ComboHunterBehaviour : MonoBehaviour
                 levelPersonalBest.value = turnsTaken.value;
                 personalBestLoader.SavePref();
             }
-            transitionToNextSceneEvent.Raise();
+            levelCompleteEvent.Raise();
         }
         DeactivateHunter();
     }

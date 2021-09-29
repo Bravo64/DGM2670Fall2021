@@ -23,7 +23,7 @@ public class PlayerPrefLoader : ScriptableObject
         PlayerPrefs.SetInt (_completeKey, prefIntDataObj.value);
     }
     
-    public void LoadPref()
+    public void LoadPref(int defaultValue)
     {
         if (attachSceneIndexToKey)
         {
@@ -33,6 +33,6 @@ public class PlayerPrefLoader : ScriptableObject
         {
             _completeKey = playerPrefSaveKey;
         }
-        prefIntDataObj.value = PlayerPrefs.GetInt(_completeKey, 0);
+        prefIntDataObj.value = PlayerPrefs.GetInt(_completeKey, defaultValue);
     }
 }
