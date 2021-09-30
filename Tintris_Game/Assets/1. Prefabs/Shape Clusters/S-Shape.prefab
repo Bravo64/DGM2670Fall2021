@@ -1428,6 +1428,7 @@ GameObject:
   - component: {fileID: 7388974406352975597}
   - component: {fileID: 3698343701048696763}
   - component: {fileID: -7754722392946995745}
+  - component: {fileID: -3278154302920958888}
   m_Layer: 8
   m_Name: S-Shape
   m_TagString: Untagged
@@ -1489,7 +1490,7 @@ MonoBehaviour:
   rightMovementLocked: 0
   leftMovementLocked: 0
   groundDetected: 0
-  freeFallActivated: 0
+  swipedDown: 0
   moveRightPressed: 0
   moveRightHeld: 0
   moveLeftPressed: 0
@@ -1499,7 +1500,6 @@ MonoBehaviour:
   spinRightPressed: 0
   spinLeftPressed: 0
   dropFrameInterval: 10
-  swipedDown: 0
 --- !u!82 &3698343701048696763
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1616,6 +1616,34 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: ShapeMovementBehaviour, Assembly-CSharp
         m_MethodName: OnFreeFallButtonDown
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &-3278154302920958888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7388974406352975599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c59338710d7cc4dea83749e288eb4d6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 0cf33cb92c7f1491e91b8fb0a0868a6e, type: 2}
+  unityEventResponse:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7388974406352975599}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
