@@ -32,3 +32,5 @@ Monday, September 27th, 2021: Clear
 Tuesday, September 28th, 2021: Cloudy, Windy
 Wednesday, September 29th, 2021: Cloudy, Rainy
 Thursday, September 30th, 2021: Mostly Cloudy, Cold
+Friday, October 1st, 2021: Cloudy, Slightly Cold
+Saturday, October 2nd, 2021: Mostly Clear
