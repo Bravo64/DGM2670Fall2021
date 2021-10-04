@@ -1331,6 +1331,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 51647041411500209, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1245406603170053105, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
       propertyPath: onAwakeEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 3

@@ -25,8 +25,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 565871908667403146}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.04, z: 0}
-  m_LocalScale: {x: 2.53125, y: 1.4301564, z: 1}
+  m_LocalPosition: {x: 0.02, y: -0.04, z: 0}
+  m_LocalScale: {x: 3.474207, y: 1.9877743, z: 1.3899}
   m_Children: []
   m_Father: {fileID: 4070210619948198526}
   m_RootOrder: 0
@@ -92,7 +92,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4070210619948198526}
   - component: {fileID: 294987281743364400}
-  - component: {fileID: 8638965967701711454}
   m_Layer: 0
   m_Name: Level Lock
   m_TagString: Untagged
@@ -109,7 +108,7 @@ Transform:
   m_GameObject: {fileID: 6860418486489514782}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.03, y: 3.64, z: 0}
-  m_LocalScale: {x: 1.5357, y: 1.5357, z: 1.5357}
+  m_LocalScale: {x: 1.1392897, y: 1.1392897, z: 1.1392897}
   m_Children:
   - {fileID: 5862003048844573353}
   m_Father: {fileID: 0}
@@ -166,39 +165,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8638965967701711454
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6860418486489514782}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96aa085946fc04607b177cc270bbeec5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  checkOnStart: 1
-  mode: 1
-  mainIntData: {fileID: 11400000, guid: 0abf232e0b9814807aa87a1d13a5cfac, type: 2}
-  checkFor: 0
-  secondaryIntData: {fileID: 0}
-  intVariable: 0
-  ifStatementIsTrueEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 6860418486489514782}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  elseEvent:
-    m_PersistentCalls:
-      m_Calls: []
