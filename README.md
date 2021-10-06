@@ -37,3 +37,4 @@ Saturday, October 2nd, 2021: Mostly Clear
 Sunday, October 3rd, 2021: Mostly Clear
 Monday, October 4th, 2021: Clear
 Tuesday, October 5th, 2021: Cloudy, Slightly Rainy
+Wednesday, October 6th, 2021: Cloudy, Super Rainy
