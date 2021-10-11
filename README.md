@@ -42,3 +42,4 @@ Thursday, October 7th, 2021: Cloudy
 Friday, October 8th, 2021: Cloudy, Slightly Rainy
 Saturday, October 9th, 2021: Rainy
 Sunday, October 10th, 2021: Mostly Clear, Slightly Cold
+Monday, October 11th, 2021: Clear
