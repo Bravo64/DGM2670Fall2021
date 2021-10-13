@@ -44,3 +44,4 @@ Saturday, October 9th, 2021: Rainy
 Sunday, October 10th, 2021: Mostly Clear, Slightly Cold
 Monday, October 11th, 2021: Clear, Rainy in Evening
 Tuesday, October 12th, 2021: Very Rainy
+Wednesday, October 13th, 2021: Mostly Clear
