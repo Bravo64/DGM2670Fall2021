@@ -46,3 +46,5 @@ Monday, October 11th, 2021: Clear, Rainy in Evening
 Tuesday, October 12th, 2021: Very Rainy
 Wednesday, October 13th, 2021: Mostly Clear
 Thursday, October 14th, 2021: Cloudy
+Friday, October 15th, 2021: Mostly Clear
+Saturday, October 16th, 2021: Clear
