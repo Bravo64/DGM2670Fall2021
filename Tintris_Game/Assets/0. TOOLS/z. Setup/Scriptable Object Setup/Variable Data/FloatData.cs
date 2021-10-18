@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 using Random = UnityEngine.Random;
 
 
@@ -6,6 +7,8 @@ using Random = UnityEngine.Random;
 public class FloatData : ScriptableObject
 {
     public float value;
+    public UnityEvent minReachedEvent;
+    public UnityEvent maxReachedEvent;
 
     public float GetFloat()
     {
@@ -65,5 +68,19 @@ public class FloatData : ScriptableObject
     public void RandomMinOne(float maxValue)
     {
         value = Random.Range(1.0f, maxValue);
+    }
+
+    public void CheckMinValue(float minValue)
+    {
+        if (!(value < minValue)) return;
+        minReachedEvent.Invoke();
+        value = minValue;
+    }
+    
+    public void CheckMaxValue(float maxValue)
+    {
+        if (!(value >= maxValue)) return;
+        maxReachedEvent.Invoke();
+        value = maxValue;
     }
 }
