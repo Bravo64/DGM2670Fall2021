@@ -49,3 +49,4 @@ Thursday, October 14th, 2021: Cloudy
 Friday, October 15th, 2021: Mostly Clear
 Saturday, October 16th, 2021: Clear
 Sunday, October 17th, 2021: Clear
+Monday, October 18th, 2021: Mostly Clear
