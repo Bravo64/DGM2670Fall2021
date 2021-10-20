@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="890ef2db-4b6f-46f8-ade3-90aa20213616" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/0. TOOLS/z. Setup/Scriptable Object Setup/Variable Data/FloatData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0. TOOLS/z. Setup/Scriptable Object Setup/Variable Data/FloatData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tintris_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tintris_Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0. TOOLS/z. Setup/Action Handler Setup/GameAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0. TOOLS/z. Setup/Action Handler Setup/GameAction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0. TOOLS/z. Setup/Action Handler Setup/GameActionHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0. TOOLS/z. Setup/Action Handler Setup/GameActionHandler.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +95,7 @@
       <workItem from="1632934794121" duration="425000" />
       <workItem from="1633970475855" duration="359000" />
       <workItem from="1634424451545" duration="331000" />
-      <workItem from="1634576219834" duration="463000" />
+      <workItem from="1634576219834" duration="2278000" />
     </task>
     <servers />
   </component>
