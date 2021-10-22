@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="890ef2db-4b6f-46f8-ade3-90aa20213616" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tintris_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tintris_Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0. TOOLS/z. Setup/Action Handler Setup/GameAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0. TOOLS/z. Setup/Action Handler Setup/GameAction.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/0. TOOLS/z. Setup/Action Handler Setup/GameActionHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0. TOOLS/z. Setup/Action Handler Setup/GameActionHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/0. TOOLS/Scriptable Objects/Common Variables/Int Data Objects/Is FREE Version.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/0. TOOLS/Scriptable Objects/Common Variables/Int Data Objects/Is FREE Version.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1. Prefabs/Level Lock.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Prefabs/Level Lock.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1. Prefabs/Scene Setup/Scene.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Prefabs/Scene Setup/Scene.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Scenes/B. LEVEL SELECT MENU.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Scenes/B. LEVEL SELECT MENU.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +101,8 @@
       <workItem from="1633970475855" duration="359000" />
       <workItem from="1634424451545" duration="331000" />
       <workItem from="1634576219834" duration="2278000" />
+      <workItem from="1634766606582" duration="510000" />
+      <workItem from="1634767730660" duration="6000" />
     </task>
     <servers />
   </component>
