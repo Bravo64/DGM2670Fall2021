@@ -51,3 +51,5 @@ Saturday, October 16th, 2021: Clear
 Sunday, October 17th, 2021: Clear
 Monday, October 18th, 2021: Mostly Clear
 Tuesday, October 19th, 2021: Mostly Cloudy
+Wednesday, October 20th, 2021: Partly Cloudy
+Thursday, October 21st, 2021: Partly Cloudy
