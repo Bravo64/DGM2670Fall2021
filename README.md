@@ -53,3 +53,9 @@ Monday, October 18th, 2021: Mostly Clear
 Tuesday, October 19th, 2021: Mostly Cloudy
 Wednesday, October 20th, 2021: Partly Cloudy
 Thursday, October 21st, 2021: Partly Cloudy
+Friday, October 22nd, 2021: Mostly Clear
+
+
+
+
+
