@@ -56,6 +56,7 @@ Thursday, October 21st, 2021: Partly Cloudy
 Friday, October 22nd, 2021: Mostly Clear
 Saturday, October 23rd, 2021: Rainy
 Sunday, October 24th, 2021: Mostly Cloudy, Rainy
+Monday, October 25th, 2021: Cloudy
 
 
 
