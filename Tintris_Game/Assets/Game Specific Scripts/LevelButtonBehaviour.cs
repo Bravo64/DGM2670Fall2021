@@ -10,18 +10,22 @@ public class LevelButtonBehaviour : MonoBehaviour
     public DraggableMenuItemBehaviour levelSelectMenu;
     public TextMeshProUGUI myLevelNumberLabel;
     public VoidEvent transitionToNone;
+    public IntData highestLevelUnlocked;
 
     private AudioSource _myAudioSource;
+    private int _levelToSceneIndexShift = 2;
+    private int levelIntNumber;
 
 
     private void Start()
     {
         _myAudioSource = GetComponent<AudioSource>();
+        levelIntNumber = int.Parse(myLevelNumberLabel.text);
     }
 
     public void ActivateButton()
     {
-        if (levelSelectMenu._closeToSnapPoint)
+        if (levelSelectMenu._closeToSnapPoint && levelIntNumber <= highestLevelUnlocked.value)
         {
             transitionToNone.Raise();
             StartCoroutine(WaitAndLoad());
@@ -32,6 +36,6 @@ public class LevelButtonBehaviour : MonoBehaviour
     IEnumerator WaitAndLoad()
     {
         yield return new WaitForSeconds(0.5f);
-        SceneManager.LoadScene(int.Parse(myLevelNumberLabel.text) + 1);
+        SceneManager.LoadScene(levelIntNumber + _levelToSceneIndexShift);
     }
 }

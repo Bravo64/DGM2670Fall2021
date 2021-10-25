@@ -434,6 +434,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 745174398}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &59390581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1317,6 +1318,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 1787185855}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &178410012
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1618,6 +1620,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 1522820806}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &203602410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2011,7 +2014,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &217108849
 Transform:
   m_ObjectHideFlags: 0
@@ -2156,6 +2159,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 1966675522}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &264129189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2725,6 +2729,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 1784908744}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &271027491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3326,6 +3331,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 475418158}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &316138498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4307,6 +4313,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 208002377}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &440711709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5157,6 +5164,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 589784007}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &513542906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5533,6 +5541,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 594843736}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &525219572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5964,6 +5973,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 1958684196}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &551019862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7340,6 +7350,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 1227585076}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &622782229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7853,6 +7864,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 1449340115}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &683417202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9185,6 +9197,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 1098729969}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &825241352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9705,6 +9718,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 425439264}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &916985592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10104,6 +10118,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 1716593336}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &955271141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10539,6 +10554,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 815792404}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &997706488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11108,6 +11124,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 1746924087}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &1015253428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11446,6 +11463,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 815107629}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &1029866468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12268,6 +12286,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 1000644817}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &1134474413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12986,6 +13005,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 1861961976}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &1223296017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13287,6 +13307,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 987821478}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &1224409984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13957,6 +13978,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 265438315}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &1267460855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14644,6 +14666,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 1403918934}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &1347398522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14945,6 +14968,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 578067134}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &1359287693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15444,6 +15468,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 1760013538}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &1423889620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16836,6 +16861,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 264205077}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &1609787797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17622,6 +17648,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 1591180822}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &1682617046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17923,6 +17950,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 1009365037}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &1693522464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19782,6 +19810,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 568265842}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &1816546953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20149,6 +20178,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 622123295}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &1838425540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20857,6 +20887,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 1902356442}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &1877617226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21158,6 +21189,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 1249516374}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &1889551666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21593,6 +21625,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 2049974970}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &1909380531
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22194,6 +22227,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 1710917065}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &1971993170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22668,6 +22702,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 575627160}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &2007670306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23185,6 +23220,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 109332923}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &2032207584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23479,6 +23515,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 1426714604}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &2040765374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23914,6 +23951,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 2022820135}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &2054044208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24445,6 +24483,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 414180239}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &2107681822
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24791,6 +24830,7 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 730252783}
   myLevelNumberLabel: {fileID: 1169287016}
   transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
+  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &2125682888
 MonoBehaviour:
   m_ObjectHideFlags: 0
