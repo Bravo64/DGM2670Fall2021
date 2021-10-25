@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="890ef2db-4b6f-46f8-ade3-90aa20213616" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tintris_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tintris_Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Prefabs/Scene Setup/Scene.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Prefabs/Scene Setup/Scene.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2. Scenes/A. MAIN MENU.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Scenes/A. MAIN MENU.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2. Scenes/B. LEVEL SELECT MENU.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2. Scenes/B. LEVEL SELECT MENU.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2. Scenes/C. GAME INSTRUCTIONS.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2. Scenes/C. GAME INSTRUCTIONS.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Specific Scripts/LevelButtonBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Specific Scripts/LevelButtonBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Scenes/C. GAME INSTRUCTIONS.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Scenes/C. GAME INSTRUCTIONS.unity.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +106,7 @@
       <workItem from="1634766606582" duration="510000" />
       <workItem from="1634767730660" duration="6000" />
       <workItem from="1635120868031" duration="739000" />
-      <workItem from="1635122062106" duration="672000" />
+      <workItem from="1635122062106" duration="1082000" />
     </task>
     <servers />
   </component>
