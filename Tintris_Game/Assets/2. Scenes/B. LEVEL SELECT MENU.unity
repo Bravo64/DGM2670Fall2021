@@ -2014,7 +2014,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &217108849
 Transform:
   m_ObjectHideFlags: 0
@@ -23093,7 +23093,6 @@ GameObject:
   - component: {fileID: 2032207581}
   - component: {fileID: 2032207580}
   - component: {fileID: 2032207584}
-  - component: {fileID: 2032207583}
   - component: {fileID: 2032207585}
   - component: {fileID: 2032207586}
   m_Layer: 5
@@ -23205,22 +23204,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2032207578}
   m_CullTransparentMesh: 1
---- !u!114 &2032207583
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2032207578}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d86b0f20558d48b69b0be8736c0858f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelSelectMenu: {fileID: 730252783}
-  myLevelNumberLabel: {fileID: 109332923}
-  transitionToNone: {fileID: 11400000, guid: 41533ac6dd0bf4bc9b78d057fbe289f3, type: 2}
-  highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
 --- !u!114 &2032207584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23238,9 +23221,9 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 2032207583}
-          m_TargetAssemblyTypeName: LevelButtonBehaviour, Assembly-CSharp
-          m_MethodName: ActivateButton
+        - m_Target: {fileID: 11400000, guid: f651204c9913d47948a63d3fe1a0249e, type: 2}
+          m_TargetAssemblyTypeName: GameEvents.VoidEvent, Assembly-CSharp
+          m_MethodName: Raise
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}

@@ -9,11 +9,11 @@ EditorBuildSettings:
     path: Assets/2. Scenes/A. MAIN MENU.unity
     guid: 7b31e9a12dc98464495447e0745ea248
   - enabled: 1
-    path: Assets/2. Scenes/B. GAME INSTRUCTIONS.unity
-    guid: 20e8fbb654ab846238afd2daf66b3790
-  - enabled: 1
-    path: Assets/2. Scenes/C. LEVEL SELECT MENU.unity
+    path: Assets/2. Scenes/B. LEVEL SELECT MENU.unity
     guid: 219350eb8ad1543c2b576b5b942a20e9
+  - enabled: 1
+    path: Assets/2. Scenes/C. GAME INSTRUCTIONS.unity
+    guid: 20e8fbb654ab846238afd2daf66b3790
   - enabled: 1
     path: Assets/2. Scenes/Level 1.unity
     guid: ebeb07424dba94aa2801e50c00cbb12a
