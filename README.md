@@ -59,6 +59,7 @@ Sunday, October 24th, 2021: Mostly Cloudy, Rainy
 Monday, October 25th, 2021: Cloudy
 Tuesday, October 26th, 2021: Cloudy, Slightly Rainy
 Wednesday, October 27th, 2021: Mostly Clear
+Thursday, October 28th, 2021: Mostly Clear
 
 
 
