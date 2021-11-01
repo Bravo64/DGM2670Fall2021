@@ -62,6 +62,8 @@ Wednesday, October 27th, 2021: Mostly Clear
 Thursday, October 28th, 2021: Mostly Clear
 Friday, October 29th, 2021: Clear
 Saturday, October 30th, 2021: Mostly Clear
+Sunday, October 31st, 2021: Clear
+Monday, November 1st, 2021: Cloudy
 
 
 
