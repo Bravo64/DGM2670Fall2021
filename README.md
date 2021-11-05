@@ -64,6 +64,9 @@ Friday, October 29th, 2021: Clear
 Saturday, October 30th, 2021: Mostly Clear
 Sunday, October 31st, 2021: Clear
 Monday, November 1st, 2021: Cloudy
+Tuesday, November 2nd, 2021: Mostly Cloudy
+Wednesday, November 3rd, 2021: Mostly Clear
+Thursday, November 4th, 2021: Mostly Clear
 
 
 
