@@ -72,6 +72,7 @@ Saturday, November 6th, 2021: Cloudy
 Sunday, November 7th, 2021: Partly Cloudy
 Monday, November 8th, 2021: Mostly Cloudy
 Tuesday, November 9th, 2021: Very Rainy, Cloudy
+Wednesday, November 10th, 2021: Mostly Clear
 
 
 
