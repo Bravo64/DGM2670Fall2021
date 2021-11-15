@@ -7562,9 +7562,37 @@ PrefabInstance:
       value: Settings Menu Canvas
       objectReference: {fileID: 0}
     - target: {fileID: 2768916298394963885, guid: 928083ed69cc1459e80d7ea875f3602c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2768916298394963885, guid: 928083ed69cc1459e80d7ea875f3602c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2768916298394963885, guid: 928083ed69cc1459e80d7ea875f3602c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2853083429238984045}
+    - target: {fileID: 2768916298394963885, guid: 928083ed69cc1459e80d7ea875f3602c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 8995989366662464523}
+    - target: {fileID: 2768916298394963885, guid: 928083ed69cc1459e80d7ea875f3602c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2768916298394963885, guid: 928083ed69cc1459e80d7ea875f3602c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 2768916298394963885, guid: 928083ed69cc1459e80d7ea875f3602c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: UnityEngine.AudioSource, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2768916298394963885, guid: 928083ed69cc1459e80d7ea875f3602c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7933993677060728399, guid: 928083ed69cc1459e80d7ea875f3602c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
