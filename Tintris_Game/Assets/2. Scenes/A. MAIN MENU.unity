@@ -454,6 +454,11 @@ AudioSource:
   m_CorrespondingSourceObject: {fileID: 6185091154640767518, guid: cb35e105af19947acb51a027af8ee146, type: 3}
   m_PrefabInstance: {fileID: 692453952}
   m_PrefabAsset: {fileID: 0}
+--- !u!224 &306180250 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6316934652346885392, guid: cb35e105af19947acb51a027af8ee146, type: 3}
+  m_PrefabInstance: {fileID: 692453952}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &376039624
 GameObject:
   m_ObjectHideFlags: 0
@@ -924,6 +929,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Credits Menu Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 4188901239892420403, guid: cb35e105af19947acb51a027af8ee146, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6316934652346885392, guid: cb35e105af19947acb51a027af8ee146, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1314,6 +1323,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 971475083}
   m_CullTransparentMesh: 1
+--- !u!1 &1045916905 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 241090338202515571, guid: e065dc4e84cac468ca7182a636cfc65c, type: 3}
+  m_PrefabInstance: {fileID: 1148033836}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1045916906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045916905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 679dd3dd5fa3942638fb27888e0d8c99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  creditsMenu: {fileID: 306180250}
+  settingsMenu: {fileID: 0}
 --- !u!1001 &1079189003
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1480,7 +1508,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 241090338202515599, guid: e065dc4e84cac468ca7182a636cfc65c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.6500001
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 241090338202515599, guid: e065dc4e84cac468ca7182a636cfc65c, type: 3}
       propertyPath: m_LocalPosition.z
