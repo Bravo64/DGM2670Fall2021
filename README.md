@@ -78,6 +78,7 @@ Friday, November 12th, 2021: Mostly Clear
 Saturday, November 13th, 2021: Mostly Clear
 Sunday, November 14th, 2021: Partly Cloudy
 Monday, November 15th, 2021: Cloudy
+Tuesday, November 16th, 2021: Mostly Clear
 
 
 
