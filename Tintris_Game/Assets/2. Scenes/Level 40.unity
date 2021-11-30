@@ -3516,13 +3516,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 567161097162799003, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 72f311dfebd144f6683b783585a2d335, type: 2}
+    - target: {fileID: 567161097162799003, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Raise
+      objectReference: {fileID: 0}
     - target: {fileID: 1245406603170053105, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
       propertyPath: onAwakeEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2459911409324039258, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3508037571956866274, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
       propertyPath: m_Name
       value: Scene
+      objectReference: {fileID: 0}
+    - target: {fileID: 5792614227930839216, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: m_text
+      value: "AMAZING! \nYOU'VE COMPLETED ALL 40 LEVELS.\nGREAT WORK!!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5792614227930839216, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: m_fontSize
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5792614227930839216, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 8954455265229902975, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
       propertyPath: m_RootOrder
