@@ -83,6 +83,15 @@ Wednesday, November 17th, 2021: Clear
 Thursday, November 18th, 2021: Mostly Cloudy
 Friday, November 19th, 2021: Mostly Clear
 Saturday, November 20th, 2021: Mostly Cloudy
+Sunday, November 21st, 2021: [THANKSGIVING BREAK]
+Monday, November 22nd, 2021: [THANKSGIVING BREAK]
+Tuesday, November 23rd, 2021: [THANKSGIVING BREAK]
+Wednesday, November 24th, 2021: [THANKSGIVING BREAK]
+Thursday, November 25th, 2021: [THANKSGIVING BREAK]
+Friday, November 26th, 2021: [THANKSGIVING BREAK]
+Saturday, November 27th, 2021: [THANKSGIVING BREAK]
+Sunday, November 28th, 2021: [THANKSGIVING BREAK]
+Monday, November 29th, 2021: Mostly Clear
 
 
 
