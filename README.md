@@ -92,6 +92,7 @@ Friday, November 26th, 2021: [THANKSGIVING BREAK]
 Saturday, November 27th, 2021: [THANKSGIVING BREAK]
 Sunday, November 28th, 2021: [THANKSGIVING BREAK]
 Monday, November 29th, 2021: Mostly Clear
+Tuesday, November 30th, 2021: Partly Cloudy
 
 
 
