@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="890ef2db-4b6f-46f8-ade3-90aa20213616" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tintris_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tintris_Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1. Prefabs/Scene Setup/Scene.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Prefabs/Scene Setup/Scene.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game Specific Scripts/LevelUnlockBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Specific Scripts/LevelUnlockBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,14 +15,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file:///Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Tests/Runtime/Graphic/ImageTests.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file:///Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Toggle.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.7/Editor/treeview/TrackGui/TimelineGroupGUI.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/0. CLASS LESSON SCRIPTS (DGM 2670)/Collection Setup/ColorCollectionSO.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.7/Editor/Manipulators/Utils/EditModeGUIUtils.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.animation@5.0.4/IK/Runtime/Solvers/FABRIK2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file:///Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/PointerInputModule.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file:///Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Utility/VertexHelper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.animation@5.0.4/Runtime/Triangle/Topology/Otri.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@2.0.7/Rider/Editor/RiderScriptEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file:///Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Tests/Runtime/TextEditor/TextEditorTests.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file:///Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Tests/Editor/CanvasRenderer/ParentCanvasIsSane.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.7/Editor/treeview/TrackGui/TimelineGroupGUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.7/Editor/treeview/TrackGui/InlineCurveEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.7/Editor/Actions/TrackActions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Editor/TMPro_CreateObjectMenu.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/0. CLASS LESSON SCRIPTS (DGM 2670)/Collection Setup/ColorCollectionSO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.7/Editor/Manipulators/Utils/EditModeGUIUtils.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.7/Editor/Shortcuts.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file:///Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Tests/Editor/EventSystem/InterceptedEventsPreviewTests.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game Specific Scripts/CenterInstructionsBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.7/Editor/treeview/ManipulationsTracks.cs" root0="SKIP_HIGHLIGHTING" />
@@ -111,6 +121,7 @@
       <workItem from="1637123630885" duration="35000" />
       <workItem from="1637123685827" duration="1229000" />
       <workItem from="1637169439075" duration="1800000" />
+      <workItem from="1638332379724" duration="315000" />
     </task>
     <servers />
   </component>

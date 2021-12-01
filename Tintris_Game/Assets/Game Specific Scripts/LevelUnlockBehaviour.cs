@@ -8,6 +8,9 @@ public class LevelUnlockBehaviour : MonoBehaviour
     
     public void UnlockNextLevel()
     {
-        highestLevelUnlocked.value = SceneManager.GetActiveScene().buildIndex + sceneToNextLevelIndexShift;
+        if (SceneManager.GetActiveScene().buildIndex + sceneToNextLevelIndexShift > highestLevelUnlocked.value)
+        {
+            highestLevelUnlocked.value = SceneManager.GetActiveScene().buildIndex + sceneToNextLevelIndexShift;
+        }
     }
 }

@@ -1274,7 +1274,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2914583998950330168, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 3260434050607824743, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
       propertyPath: m_RootOrder
@@ -1292,9 +1292,25 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 17
       objectReference: {fileID: 0}
+    - target: {fileID: 7746688452661274787, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 7978909840480230560, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 8355468199727947575, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409844968110945515, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: onAwakeEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409844968110945515, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: onAwakeEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8581321532272035697, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
       propertyPath: m_fontSizeBase

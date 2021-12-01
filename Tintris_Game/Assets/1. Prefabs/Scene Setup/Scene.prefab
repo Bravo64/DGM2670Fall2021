@@ -2109,6 +2109,7 @@ GameObject:
   - component: {fileID: 6205493444063237317}
   - component: {fileID: 7909519468992646850}
   - component: {fileID: 5609075821027111287}
+  - component: {fileID: 1460621653914022932}
   m_Layer: 5
   m_Name: Level Complete Canvas
   m_TagString: Untagged
@@ -2305,6 +2306,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1460621653914022932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2459911409324039258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 679dd3dd5fa3942638fb27888e0d8c99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  creditsMenu: {fileID: 5740094487476461177}
+  settingsMenu: {fileID: 5740094487476461177}
 --- !u!1 &2558376445193044242
 GameObject:
   m_ObjectHideFlags: 0
@@ -7454,6 +7469,14 @@ PrefabInstance:
     - target: {fileID: 241090338202515599, guid: e065dc4e84cac468ca7182a636cfc65c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1008320131026854477, guid: e065dc4e84cac468ca7182a636cfc65c, type: 3}
+      propertyPath: onAwakeEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1008320131026854477, guid: e065dc4e84cac468ca7182a636cfc65c, type: 3}
+      propertyPath: onAwakeEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e065dc4e84cac468ca7182a636cfc65c, type: 3}
