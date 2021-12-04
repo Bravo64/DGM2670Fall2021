@@ -95,6 +95,7 @@ Monday, November 29th, 2021: Mostly Clear
 Tuesday, November 30th, 2021: Partly Cloudy
 Wednesday, December 1st, 2021: Clear
 Thursday, December 2nd, 2021: Mostly Clear
+Friday, December 3rd, 2021: Mostly Clear
 
 
 
