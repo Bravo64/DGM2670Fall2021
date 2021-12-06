@@ -98,6 +98,7 @@ Thursday, December 2nd, 2021: Mostly Clear
 Friday, December 3rd, 2021: Mostly Clear
 Saturday, December 4th, 2021: Clear
 Sunday, December 5th, 2021: Clear
+Monday, December 6th, 2021: Cloudy
 
 
 
