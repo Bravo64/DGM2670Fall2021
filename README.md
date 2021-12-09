@@ -100,6 +100,7 @@ Saturday, December 4th, 2021: Clear
 Sunday, December 5th, 2021: Clear
 Monday, December 6th, 2021: Cloudy
 Tuesday, December 7th, 2021: Clear
+Wednesday, December 8th, 2021: Partly Cloudy
 
 
 
