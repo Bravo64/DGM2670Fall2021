@@ -102,6 +102,8 @@ Monday, December 6th, 2021: Cloudy
 Tuesday, December 7th, 2021: Clear
 Wednesday, December 8th, 2021: Partly Cloudy
 Thursday, December 9th, 2021: Cloudy, Snowing
+Friday, December 10th, 2021: Mostly Cloudy
+Saturday, December 11th, 2021: Partly Cloudy
 
 
 
