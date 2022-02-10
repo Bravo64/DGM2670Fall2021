@@ -1,5 +1,5 @@
 
-using Unity.Mathematics;
+
 using UnityEngine;
 
 public class GroundSensorBehaviour : MonoBehaviour
@@ -15,7 +15,7 @@ public class GroundSensorBehaviour : MonoBehaviour
     {
         if (transform.parent.rotation != Quaternion.identity)
         {
-            transform.parent.rotation = quaternion.identity;
+            transform.parent.rotation = Quaternion.identity;
         }
         _dotParent = transform.parent.parent;
         SnapPosition();
@@ -46,7 +46,7 @@ public class GroundSensorBehaviour : MonoBehaviour
         }
         if (transform.parent.rotation != Quaternion.identity)
         {
-            transform.parent.rotation = quaternion.identity;
+            transform.parent.rotation = Quaternion.identity;
         }
     }
 

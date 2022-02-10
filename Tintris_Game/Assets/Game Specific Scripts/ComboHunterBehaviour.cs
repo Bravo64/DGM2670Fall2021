@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using GameEvents;
-using Unity.Mathematics;
 using UnityEngine;
 
 public class ComboHunterBehaviour : MonoBehaviour
@@ -169,7 +168,7 @@ public class ComboHunterBehaviour : MonoBehaviour
                     comboDot.gameObject.SetActive(false);
                     if (currentComboCount.value % _combosNeededForBomb == 0 && _bombPlanted == false)
                     {
-                        Instantiate(bomb, comboDot.transform.position, quaternion.identity);
+                        Instantiate(bomb, comboDot.transform.position, Quaternion.identity);
                         _awardAudioSource.Play();
                         _bombPlanted = true;
                     }
