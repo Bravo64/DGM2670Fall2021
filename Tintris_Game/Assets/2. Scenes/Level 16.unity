@@ -728,6 +728,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scene
       objectReference: {fileID: 0}
+    - target: {fileID: 5372163536565328835, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: nextLevelNumber
+      value: 17
+      objectReference: {fileID: 0}
     - target: {fileID: 8954455265229902975, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1040,10 +1044,10 @@ Transform:
   - {fileID: 198332151}
   - {fileID: 489384022}
   - {fileID: 237326890}
-  - {fileID: 444947384}
   - {fileID: 171007084}
   - {fileID: 284218568}
   - {fileID: 1864810167}
+  - {fileID: 444947384}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

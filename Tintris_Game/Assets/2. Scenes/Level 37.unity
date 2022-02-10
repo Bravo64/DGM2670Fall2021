@@ -4007,6 +4007,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scene
       objectReference: {fileID: 0}
+    - target: {fileID: 5372163536565328835, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: nextLevelNumber
+      value: 38
+      objectReference: {fileID: 0}
     - target: {fileID: 8954455265229902975, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
       propertyPath: m_RootOrder
       value: 0

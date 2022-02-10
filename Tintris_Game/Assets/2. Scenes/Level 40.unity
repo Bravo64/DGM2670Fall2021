@@ -3536,6 +3536,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scene
       objectReference: {fileID: 0}
+    - target: {fileID: 5372163536565328835, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
+      propertyPath: nextLevelNumber
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 5792614227930839216, guid: 043abdba28f004c91afa1adb8eda54a3, type: 3}
       propertyPath: m_text
       value: "AMAZING! \nYOU'VE COMPLETED ALL 40 LEVELS.\nGREAT WORK!!"
