@@ -4402,7 +4402,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   highestLevelUnlocked: {fileID: 11400000, guid: 7b3b00ed324a047f9b0ce4f9b032a50f, type: 2}
-  sceneToNextLevelIndexShift: -1
+  sceneToNextLevelIndexShift: -2
 --- !u!1 &4392923809983390543
 GameObject:
   m_ObjectHideFlags: 0
